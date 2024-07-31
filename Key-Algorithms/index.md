@@ -31,7 +31,7 @@ They were originally written as a series of blog posts between November 2023 and
 
 ## Missing and Anomalous Data 
 * [Outlier Detection]({% link Key-Algorithms/outlier-detection.md %})
-* [Imputation]({% link Key-Algoruithms/imputation.md %})
+* [Imputation]({% link Key-Algorithms/imputation.md %})
 
 ## Unsupervised Learning
 * [Hierarchical Clustering]({% link Key-Algorithms/hierarchical-clustering.md %})
