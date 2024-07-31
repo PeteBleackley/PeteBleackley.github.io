@@ -36,7 +36,7 @@ $$P(z) = \frac{\sum_{i} P(z \mid \vec{x}_{i})}{N}$$ where $N$ is the number of d
 
 Gaussian mixture models can be seen as a more rigourous version of K-Means, however, in high dimensions there is a risk of the covariance matrices becoming singular (all the datapoints for a particular cluster lie in a lower-dimensional subspace), so it is a good idea to apply [data reduction]({% link Key-Algorithms/data-reduction.md %}) first.
 
-Mixture models of other distributions are possible, but may require [gradient descent]({% link Key-Algorithms/gradient-descent.md) or [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md %}) in the maximisation step.
+Mixture models of other distributions are possible, but may require [gradient descent]({% link Key-Algorithms/gradient-descent.md %}) or [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md %}) in the maximisation step.
 
 The [SentencePiece]({% link Key-Algorithms/tokenizers.md) tokenizer uses expectation maximisation to calcuate the token frequency distribution. The expectation step calculates the token probabilites given the current maximum likelihood segmentation of the input, while the maximisation step uses the [Viterbi algorithm]({% link Key-Algorithms/viterbi-algorithm.md %}) to calculate a new maximum likelihood segmentation.
 
