@@ -40,6 +40,6 @@ by [Dr Peter J Bleackley]({% link index.md %})
 [Key Algorithms]({% link Key-Algorithms/index.md %})
 
 Simple Supervised Learning Models
-: [Logistic Regression]({% link Key-Algorithms/logistic-regression.md})
+: [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %})
 : *Linear Regression*
-: [Random Forests]({% link Key-Algorithms/random-forests.md})
+: [Random Forests]({% link Key-Algorithms/random-forests.md %})
