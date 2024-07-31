@@ -53,7 +53,7 @@ They were originally written as a series of blog posts between November 2023 and
 * [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
 * [Gradient Descent]({% link Key-Algorithms/gradient-descent.md %})
 * [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
-* [Tokenizers]({% link Key-algorithms/tokenizers.md})
+* [Tokenizers]({% link Key-Algorithms/tokenizers.md})
 
 ## Neural Network Architectures
 * [Multilayer Perceptron]({% link Key-Algorithms/multi-layer-perceptron.md %})

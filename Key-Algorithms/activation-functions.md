@@ -92,7 +92,7 @@ $$f(x) = x \tanh(\mathrm{softsum}(x)) \\
  : [The Chain Rule and Backpropogation]({% link Key-Algorithms/chain-rule.md %})
  : *Activation Functions*
  : [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
- : [Gradient Descent]({% link Key-algorithms/gradient-descent.md %})
+ : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md %})
  : [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
  : [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
   
