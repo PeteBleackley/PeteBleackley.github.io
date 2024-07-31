@@ -67,4 +67,4 @@ will be used.
 
 by [Dr Peter J Bleackley]({% link index.md %})
 
-[QARAC]({% link QARAC/link.md %})
+[QARAC]({% link QARAC/index.md %})
