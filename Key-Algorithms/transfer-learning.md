@@ -25,7 +25,7 @@ By [Dr Peter J Bleackley]({% link index.md %})
  
  Components of Neural Networks
  : [The Chain Rule and Backpropogation]({% link Key-Algorithms/chain-rule.md %})
- : [Activation Functions]({% link Key-Algorithms/activation-functions %})
+ : [Activation Functions]({% link Key-Algorithms/activation-functions.md %})
  : [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
  : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md})
  : *Transfer Learning*
