@@ -9,7 +9,7 @@ Suppose, in our test dataset, we have $N$ data points. We'll designate the predi
 
 $$\mathrm{MSE} = \frac{\sum_{i} (y_{i} - f_{i})^{2}}{N}$$
 
-This is essentially the variance of the errors. Since the mean squared error is often used as the [loss function]({% link Key-Algorithsm/loss-functions.md %}) when fitting a regression model, we can easily compare this metric to the fitting loss to give an indication of how well the model has generalised. However, it can be difficult to interpret, since the scale of the metric is not the same as the original data. We may therefore wish to use the *root mean squared error*
+This is essentially the variance of the errors. Since the mean squared error is often used as the [loss function]({% link Key-Algorithms/loss-functions.md %}) when fitting a regression model, we can easily compare this metric to the fitting loss to give an indication of how well the model has generalised. However, it can be difficult to interpret, since the scale of the metric is not the same as the original data. We may therefore wish to use the *root mean squared error*
 
 $$\mathrm{RMSE} = \sqrt{\frac{\sum_{i} (y_{i} - f_{i})^{2}}{N}}$$
 
