@@ -20,14 +20,14 @@ They were originally written as a series of blog posts between November 2023 and
 
 ## Bayesian Models
 * [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %})
-* [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %)
-* [The Viterbi Algorithm]({% link Key-Algorithms/viterbi-algorithm.md})
-* [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md})
+* [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %})
+* [The Viterbi Algorithm]({% link Key-Algorithms/viterbi-algorithm.md %})
+* [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md %})
 
 ## Simple Supervised Learning Models
-* [Logistic Regression]({% link Key-Algorithms/logistic-regression.md})
-* [Linear Regression]({% link Key-Algorithms/linear-regression.md})
-* [Random Forests]({% link Key-Algorithms/random-forests.md})
+* [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %})
+* [Linear Regression]({% link Key-Algorithms/linear-regression.md %})
+* [Random Forests]({% link Key-Algorithms/random-forests.md %})
 
 ## Missing and Anomalous Data 
 * [Outlier Detection]({% link Key-Algorithms/outlier-detection.md %})
@@ -43,7 +43,7 @@ They were originally written as a series of blog posts between November 2023 and
 * [PageRank]({% link Key-Algorithms/pagerank.md %)
 
 ## Search and Navigation
-* [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md})
+* [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md %})
 * [Priority Queues]({% link Key-Algorithms/priority-queues.md %})
 * [Graph Search Algorithms]({% link Key-Algorithms/graph-search-algorithms.md %})
 
@@ -53,7 +53,7 @@ They were originally written as a series of blog posts between November 2023 and
 * [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
 * [Gradient Descent]({% link Key-Algorithms/gradient-descent.md %})
 * [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
-* [Tokenizers]({% link Key-Algorithms/tokenizers.md})
+* [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
 
 ## Neural Network Architectures
 * [Multilayer Perceptron]({% link Key-Algorithms/multi-layer-perceptron.md %})
