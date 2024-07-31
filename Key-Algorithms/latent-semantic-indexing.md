@@ -25,7 +25,7 @@ By [Dr Peter J Bleackley]({% link index.md %})
  Measurements
 : [Similarity and Difference Metrics]({% link Key-Algorithmsmetrics.md %})
 : [TF-IDF]({% link Key-Algorithms/tf-idf.md %})
-: [Data Reduction]({% link Key-Algorithmsdata-reduction.md %})
+: [Data Reduction]({% link Key-Algorithms/data-reduction.md %})
 : *Latent Semantic Indexing*
 : [Information Theory]({% link Key-Algorithms/information-theory.md %})
 
