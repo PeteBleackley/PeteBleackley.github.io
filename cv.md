@@ -24,7 +24,7 @@ Adecco
 job descriptions.
 Sopra Steria
 : Improving the training system for anti-money-laundering software for HSBC
-[GHFP Reseach Institute]({% link Portfolio/ghrp-research-institute.md %})
+[GHFP Reseach Institute]({% link Portfolio/ghfp-research-institute.md %})
 : Created an interactive map of the [Better Place Index](https://www.thebetterplaceindex.report/map).
 [Amey Strategic Consulting]({% link Portfolio/amey.md %})
 : Created an automatic diagnostic system to detect faults in traffic flow sensors on the strategic road network.
