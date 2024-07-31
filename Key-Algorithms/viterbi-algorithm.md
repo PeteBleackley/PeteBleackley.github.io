@@ -20,7 +20,7 @@ At the end of the sequence, we may select the maximum likelihood final state $\t
 
 I first encountered the Viterbi algorithm in the context of error-correcting codes for digital television. The sequence of bits to be transmitted in a digital TV signal can be protected against errors by interspersing it with extra bits derived from a *convolutional code* - this is a binary function of a number of previous bits. This converts the transmitted sequence from an apparently random sequence (due to data compression) to a Markov process. At the receiving side, we treat the received bitstream (which inevitably contains errors) as the observations and the transmitted bitstream as the hidden states, using the Viterbi algorithm to recover it.
 
-I later used the Viterbi Algorithm for [Word Sense Disambiguation]({% link Portfolio/true-212.md). In this application, the observations were words and the hidden states were [WordNet](https://wordnet.princeton.edu/ %}) word senses. There were a few complications to take into account - function words, out-of-vocabulary words, multi-word expressions, proper names - but it achieved 70% accuracy, which was described to me as "state of the art".
+I later used the Viterbi Algorithm for [Word Sense Disambiguation]({% link Portfolio/true-212.md %}). In this application, the observations were words and the hidden states were [WordNet](https://wordnet.princeton.edu/ %}) word senses. There were a few complications to take into account - function words, out-of-vocabulary words, multi-word expressions, proper names - but it achieved 70% accuracy, which was described to me as "state of the art".
 
 It's this flexibility and applicability to a range of different problems that makes the Viterbi Algorithm one of my favourite algorithms.
 
@@ -29,7 +29,7 @@ by [Dr Peter J Bleackley]({% link index.md %})
 [Key Algorithms]({% link Key-Algorithms/index.md %})
 
 Bayesian Models
-: [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md})
+: [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %})
 : [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %)
 : *The Viterbi Algorithm*
-: [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md})
+: [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md %})
