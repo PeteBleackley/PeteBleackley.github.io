@@ -7,7 +7,7 @@ where $\mathbf{Y}$ are the desired outputs, $\mathbf{X}$ are the inputs, and $\m
 $$\mathcal{L}(\mathbf{Y},f(\mathbf{X}, \mathbf{W}))$$
 which measures the deviation of the predicted results from the actual values in the training data. We then calculate the gradient of this with respect to the weights.
 $$\mathbf{G} = \frac{\partial \mathcal{L}}{\partial \mathbf{W}}$$
-This is generally calculated using the [Chain Rule]({% link Key-Algorithmschain-rule.md %}). We then update the weights as 
+This is generally calculated using the [Chain Rule]({% link Key-Algorithms/chain-rule.md %}). We then update the weights as 
 $$\mathbf{W} \rightarrow \mathbf{W} - \eta \mathbf{G}$$
 where $\eta$ is a small constant known as the *learning rate*. This process is then iterated over a number of *epochs*, or until the loss has converged to a minimum and no further improvement can be found.
 
