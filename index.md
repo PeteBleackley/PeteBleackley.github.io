@@ -21,7 +21,7 @@ My [Data Science Notebooks]({% link Data-Science-Notebooks/index.md %}) are some
 [QARAC]({% link QARAC/index.md %}) is an open-source project to develop NLP models that are trained with concepts of logical consistency, to make their results more factually reliable.
 
 ## Other
-[How Many Components]({% link how-many-components.md %}) an idea for how to chose the best number of components to use in [Principal Component Analysis]({% link  Key-Algorithms/data-reduction.md %]).
+[How Many Components]({% link how-many-components.md %}) an idea for how to chose the best number of components to use in [Principal Component Analysis]({% link  Key-Algorithms/data-reduction.md %}).
 
 ## External Links
 * [LinkedIn](https://www.linkedin.com/in/peterjbleackley) Use this to contact me if you are interested in my work.
