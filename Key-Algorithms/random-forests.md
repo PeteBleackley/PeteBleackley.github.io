@@ -2,7 +2,7 @@ title: Key Algorithms - Random Forests
 
 #Random Forests
 
-We have mentioned clasification problems in a number of previous articles, and shown how they can be approached with [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md), [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %}) and by extension, neural networks. This week we'll examine a different method, based on *Decision Trees*.
+We have mentioned clasification problems in a number of previous articles, and shown how they can be approached with [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}), [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %}) and by extension, neural networks. This week we'll examine a different method, based on *Decision Trees*.
 
 A decision tree can be thought of a set of nested if/else statements. It can be fit by the following procedure.
 
@@ -25,6 +25,6 @@ by [Dr Peter J Bleackley]({% link index.md %})
 [Key Algorithms]({% link Key-Algorithms/index.md %})
 
 Simple Supervised Learning Models
-: [Logistic Regression]({% link Key-Algorithms/logistic-regression.md})
-: [Linear Regression]({% link Key-Algorithms/linear-regression.md})
+: [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %})
+: [Linear Regression]({% link Key-Algorithms/linear-regression.md %})
 : *Random Forests*
