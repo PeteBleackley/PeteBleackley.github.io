@@ -1,7 +1,7 @@
 title: Key Algorithms -Latent Semantic Indexing
 #Latent Semantic Indexing
 
-In the article on [data reduction]({% link Key-Algorithms/data-reduction.md), we mentioned the *curse of dimensionality*, whereby large numbers of features make data increasingly difficult to analyse meaningfully. If we take another look at [TF-IDF]({$ link Key-Algorithms/tf-idf.md %}), we see that this will generate a feature for each unique word in the corpus that it is trained on, which may be in the tens of thousands. It therefore makes sense to apply a data reduction method and obtain a more compact representation.
+In the article on [data reduction]({% link Key-Algorithms/data-reduction.md %}), we mentioned the *curse of dimensionality*, whereby large numbers of features make data increasingly difficult to analyse meaningfully. If we take another look at [TF-IDF]({$ link Key-Algorithms/tf-idf.md %}), we see that this will generate a feature for each unique word in the corpus that it is trained on, which may be in the tens of thousands. It therefore makes sense to apply a data reduction method and obtain a more compact representation.
 
 TF-IDF, as previously discussed, makes use of the fact that words that occur in some documents but not others are the most useful for distinguishing between the documents. This means that its feature vectors will generally be quite sparse. Therefore, the most appropriate data reduction method to use will be Singular Value Decomposition.
 
