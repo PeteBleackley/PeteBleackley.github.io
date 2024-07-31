@@ -21,7 +21,7 @@ This works well as a simple classifier under two conditions
 
 If there is a strong imbalance between the classes, the bias will tend to dominate over the weights, and the rarer classes will never be predicted. To mitigate this, is is possible to undersample the more common classes or oversample the rarer ones before training.
 
-If the classes are not linearly seperable, it's necessary to transform the data into a space where they are. This may be done by applying $$\vec{x^{\prime}} = f(\mathbf{M} \cdot \vec{x})$$ where $f$ is some non-linear function and $\mathbf{M}$ is a matrix of weights. We may in fact apply several layers of similar transformations, each with its own set of weight parameters. That is the basis of [neural networks]({% link Key-Algorithms/multi-leyer-perceptron.md %}).
+If the classes are not linearly seperable, it's necessary to transform the data into a space where they are. This may be done by applying $$\vec{x^{\prime}} = f(\mathbf{M} \cdot \vec{x})$$ where $f$ is some non-linear function and $\mathbf{M}$ is a matrix of weights. We may in fact apply several layers of similar transformations, each with its own set of weight parameters. That is the basis of [neural networks]({% link Key-Algorithms/multi-layer-perceptron.md %}).
 
 by [Dr Peter J Bleackley]({% link index.md %})
 
