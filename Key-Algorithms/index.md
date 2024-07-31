@@ -7,10 +7,10 @@ These articles represent what I think of as the things every data scientist shou
 They were originally written as a series of blog posts between November 2023 and July 2024, but in porting them to this site I have decided to organise them thematically.
 
 ## Measurements
-* [Similarity and Difference Metrics]({% link Key-Algoriths/metrics.md %})
+* [Similarity and Difference Metrics]({% link Key-Algorithms/metrics.md %})
 * [TF-IDF]({% link Key-Algorithms/tf-idf.md %})
 * [Data Reduction]({% link Key-Algorithms/data-reduction.md %})
-* [Latent Semantic Indexing]({%link Key[Algorithms/latent-semantic-indexing.md %})
+* [Latent Semantic Indexing]({%link Key-Algorithms/latent-semantic-indexing.md %})
 * [Information Theory]({% link Key-Algorithms/information-theory.md %})
 
 ## Model Evaluation
@@ -22,7 +22,7 @@ They were originally written as a series of blog posts between November 2023 and
 * [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %})
 * [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %)
 * [The Viterbi Algorithm]({% link Key-Algorithms/viterbi-algorithm.md})
-* [Markov Chain Monte Carlo]({% Key-Algorithms/markov-chain-monte-carlo.md})
+* [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md})
 
 ## Simple Supervised Learning Models
 * [Logistic Regression]({% link Key-Algorithms/logistic-regression.md})
