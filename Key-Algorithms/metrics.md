@@ -37,8 +37,8 @@ By [Dr Peter J Bleackley]({% link index.md %})
  
  Measurements
 : *Similarity and Difference Metrics*
-: [TF-IDF]({% link tf-idf.md %})
-: [Data Reduction]({% link data-reduction.md %})
-: [Latent Semantic Indexing]({%link latent-semantic-indexing.md %})
-: [Information Theory]({% link information-theory.md %})
+: [TF-IDF]({% link Key-Algorithms/tf-idf.md %})
+: [Data Reduction]({% link Key-Algorithms/data-reduction.md %})
+: [Latent Semantic Indexing]({%link Key-Algorithms/latent-semantic-indexing.md %})
+: [Information Theory]({% link Key-Algorithms/information-theory.md %})
 
