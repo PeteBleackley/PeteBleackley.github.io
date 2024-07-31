@@ -2,7 +2,7 @@ title: Key Algorithms - Imputation
 
 # Imputation
 
-Real world data is often messy. Values may often be missing, or erroneous, which may be flagged by [Outlier Detection]({% link key-Algorithms/outlier-detection.md %}). If only a small number of values are missing, it may be possible to simply omit them from the dataset, but if missing values are frequent, this might lead to us losing too much of the dataset. We need a way to estimate the missing values. Such methods are known as *Imputation*.
+Real world data is often messy. Values may often be missing, or erroneous, which may be flagged by [Outlier Detection]({% link Key-Algorithms/outlier-detection.md %}). If only a small number of values are missing, it may be possible to simply omit them from the dataset, but if missing values are frequent, this might lead to us losing too much of the dataset. We need a way to estimate the missing values. Such methods are known as *Imputation*.
 
 Imputation methods can be divided into *Single Imputation*, which estimate missing values for a single variable, and *Multiple Imputation*, which estimate values for several missing values. 
 Simgle Imputation methods usually substitute all the missing values with a single value, which may be the mean, median or mode of the varible's known values. This runs the risk of introducing bias into the dataset, although the median and mode are less likely to intoduce bias than the mean. An alternative is *Random Imputation*, where the missing values are filled with random samples from the variable's probability distribution. This reduces the potential for bias but introduces noise.
