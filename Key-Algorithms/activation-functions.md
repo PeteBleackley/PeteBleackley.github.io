@@ -24,7 +24,7 @@ for which
 
 $$\frac{df}{dx} = 1-f(x)^{2}$$
 
-This is related to the [logistic function]({% link Key-Algorithsm/logistic-regression.md %}) or *sigmoid*
+This is related to the [logistic function]({% link Key-Algorithms/logistic-regression.md %}) or *sigmoid*
 
 $$\sigma(x) = \frac{1}{1+e^{-x}}$$ by the relationship
 $$\tanh{x/2} = 2 \sigma(x) -1$$
