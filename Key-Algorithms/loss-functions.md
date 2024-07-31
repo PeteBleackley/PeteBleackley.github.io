@@ -65,7 +65,7 @@ and
 
 $$\frac{d \mathcal{L}}{d \vec{y}_{p}} = -\frac{1}{P(j)}$$
 
-Two variations of this are worth noting. In *Sparse Categorical Cross Entropy*, the true values are given as integer indexes rather than one-hot encoded. This is useful when there are a large number of categories, such as in Natural Language Processing. Secondly, since the predictions are usually obtained from a [softmax function]({% link logistic-regression.md %}), it is possible to supply them as logits rather than probabilities.
+Two variations of this are worth noting. In *Sparse Categorical Cross Entropy*, the true values are given as integer indexes rather than one-hot encoded. This is useful when there are a large number of categories, such as in Natural Language Processing. Secondly, since the predictions are usually obtained from a [softmax function]({% link Key-Algorithms/logistic-regression.md %}), it is possible to supply them as logits rather than probabilities.
 
 If the values of $y_{t}$ are themselves probabilities, an appropriate loss function is the *Kullback-Liebler Divergence Loss*
 $$\mathcal{L}(y_{t},y_{p}) = y_{t}(\ln(y_{t} - \ln(y_{p})$$
@@ -81,7 +81,7 @@ While the serve similar purposes, it is important not to conflate loss functions
 
 By [Dr Peter J Bleackley]({% link index.md %})
  
-[Key Algorithms]({% link Key-Algorithmsindex.md %})
+[Key Algorithms]({% link Key-Algorithms/index.md %})
 
 
 Components of Neural Networks

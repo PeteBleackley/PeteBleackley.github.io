@@ -33,7 +33,7 @@ The normalised outputs are then fed to a feedforward layer. Early transformer mo
 
 The output of the feedforward layer is added to its input, and layer normalisation applied again. The output of the second layer normalisation is the output of the transformer block.
 
-Several transformer blocks are stacked together, each processing the output of the previous one and adding more context to the representation of each token. Finally, a *head* layer is applied - this is typically a [logistic regression]({% link logistic-regression.md %}) layer that makes the necessary predictions.
+Several transformer blocks are stacked together, each processing the output of the previous one and adding more context to the representation of each token. Finally, a *head* layer is applied - this is typically a [logistic regression]({% link Key-Algorithms/logistic-regression.md %}) layer that makes the necessary predictions.
 
 There are three types of transformer models. *Encoder* models use bidirectional attention, where the full context window is taken into account for every token. These are typically trained on a *masked word prediction* task, where some words of the input are masked and the model is trained to predict them. [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta) is an example of an encoder model.
 
