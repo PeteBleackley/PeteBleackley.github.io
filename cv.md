@@ -33,7 +33,7 @@ Cambridge Quantum Computing Limited
 [Pentland Brands Limited]({% link Portfolio/pentland-brands.md %})
 : Performed a proof-of-concept study on the use of facial point-cloud data to recommend swimming
 goggles.
-[Rolls Royce AI Hub]({% link Portfolio/rolls-royce.md})
+[Rolls Royce AI Hub]({% link Portfolio/rolls-royce.md %})
 : Created a testbed for a specialist search application
 : Developed a parser library to extract logically-structured data from technical documents in a variety of formats, including scanned PDFs
 : Advised on tenders and collaborative projects
