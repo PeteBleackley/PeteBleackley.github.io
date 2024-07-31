@@ -19,7 +19,7 @@ For [QARAC]({% link QARAC/index.md %}) I am planning to use [RoBERTa](https://hu
 
 [HuggingFace](https://huggingface.co) hosts a wide selection of both base models and fine tuned models suitable for a variety of AI tasks.
 
-By [Dr Peter J Bleackley]({% link ../index.md %})
+By [Dr Peter J Bleackley]({% link index.md %})
  
  [Key Algorithms]({% link Key-Algoritbhms/link index.md %})
  
