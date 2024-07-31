@@ -19,6 +19,6 @@ You should learn something new on every project, and that has been one of my key
 
 There's only one more thing I need before I can train the models, and that's a budget for compute time, or a [community hardware grant](https://huggingface.co/docs/hub/spaces-gpus#community-gpu-grants) from HuggingFace.
 
-by [Dr Peter J Bleackley]({% file index.md %})
+by [Dr Peter J Bleackley]({% link index.md %})
 
-[QARAC]({% file QARAC/index.md %})
+[QARAC]({% link QARAC/index.md %})

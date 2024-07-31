@@ -65,6 +65,6 @@ To train the decoding of encoded sentences, a combined dataset consisting of
 + the sentences from the SNLI corpus
 will be used. 
 
-by [Dr Peter J Bleackley]({% file index.md %})
+by [Dr Peter J Bleackley]({% link index.md %})
 
-[QARAC]({% file QARAC/index.md %})
+[QARAC]({% file QARAC/link.md %})

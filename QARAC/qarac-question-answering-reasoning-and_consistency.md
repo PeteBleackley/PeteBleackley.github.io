@@ -42,6 +42,6 @@ Well, that's the theory. This is a research project, however, and the point is t
 
 Code for the projects will be published on [GitHub](https://github.com/PeteBleackley/QARAC) and trained models on [HuggingFace](https://huggingface.co/PlayfulTechnology). 
 
-by [Dr Peter J Bleackley]({% file index.md %})
+by [Dr Peter J Bleackley]({% link index.md %})
 
-[QARAC]({% file QARAC/index.md %})
+[QARAC]({% link QARAC/index.md %})
