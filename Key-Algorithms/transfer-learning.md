@@ -27,6 +27,6 @@ By [Dr Peter J Bleackley]({% link index.md %})
  : [The Chain Rule and Backpropogation]({% link Key-Algorithms/chain-rule.md %})
  : [Activation Functions]({% link Key-Algorithms/activation-functions.md %})
  : [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
- : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md})
+ : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md %})
  : *Transfer Learning*
  : [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
