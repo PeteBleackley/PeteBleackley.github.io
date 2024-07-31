@@ -32,6 +32,6 @@ by [Dr Peter J Bleackley]({% link index.md %})
 [Key Algorithms]({% link Key-Algorithms/index.md %})
 
 Search and Navigation
-: [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md})
+: [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md} %)
 : *Priority Queues*
 : [Graph Search Algorithms]({% link Key-Algorithms/graph-search-algorithms.md %})
