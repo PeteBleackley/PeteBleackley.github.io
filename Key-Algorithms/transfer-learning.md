@@ -21,12 +21,12 @@ For [QARAC]({% link QARAC/index.md %}) I am planning to use [RoBERTa](https://hu
 
 By [Dr Peter J Bleackley]({% link ../index.md %})
  
- [Key Algorithms]({% Key-Algoritbhms/link index.md %})
+ [Key Algorithms]({% link Key-Algoritbhms/link index.md %})
  
  Components of Neural Networks
  : [The Chain Rule and Backpropogation]({% link Key-Algorithms/chain-rule.md %})
  : [Activation Functions]({% link Key-Algorithms/activation-functions %})
- : [Loss Functions]({% link Key-Algorithmsloss-functions.md %})
- : [Gradient Descent]({% link gradient-descent.md})
+ : [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
+ : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md})
  : *Transfer Learning*
  : [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
