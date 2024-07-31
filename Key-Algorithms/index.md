@@ -40,7 +40,7 @@ They were originally written as a series of blog posts between November 2023 and
 
 ## Collective Intelligence
 * [Collaborative Filtering]({% link Key-Algorithms/collaborative-filtering.md %})
-* [PageRank]({% link Key-Algorithms/pagerank.md %)
+* [PageRank]({% link Key-Algorithms/pagerank.md %})
 
 ## Search and Navigation
 * [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md %})
