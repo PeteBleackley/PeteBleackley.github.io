@@ -38,7 +38,7 @@ Gaussian mixture models can be seen as a more rigourous version of K-Means, howe
 
 Mixture models of other distributions are possible, but may require [gradient descent]({% link Key-Algorithms/gradient-descent.md %}) or [Markov Chain Monte Carlo]({% link Key-Algorithms/markov-chain-monte-carlo.md %}) in the maximisation step.
 
-The [SentencePiece]({% link Key-Algorithms/tokenizers.md) tokenizer uses expectation maximisation to calcuate the token frequency distribution. The expectation step calculates the token probabilites given the current maximum likelihood segmentation of the input, while the maximisation step uses the [Viterbi algorithm]({% link Key-Algorithms/viterbi-algorithm.md %}) to calculate a new maximum likelihood segmentation.
+The [SentencePiece]({% link Key-Algorithms/tokenizers.md %}) tokenizer uses expectation maximisation to calcuate the token frequency distribution. The expectation step calculates the token probabilites given the current maximum likelihood segmentation of the input, while the maximisation step uses the [Viterbi algorithm]({% link Key-Algorithms/viterbi-algorithm.md %}) to calculate a new maximum likelihood segmentation.
 
 by [Dr Peter J Bleackley]({% link index.md %})
 
