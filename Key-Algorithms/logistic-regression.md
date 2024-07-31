@@ -29,5 +29,5 @@ by [Dr Peter J Bleackley]({% link index.md %})
 
 Simple Supervised Learning Models
 : *Logistic Regression*
-: [Linear Regression]({% link Key-Algorithms/linear-regression.md})
-: [Random Forests]({% link Key-Algorithms/random-forests.md})
+: [Linear Regression]({% link Key-Algorithms/linear-regression.md %})
+: [Random Forests]({% link Key-Algorithms/random-forests.md %})
