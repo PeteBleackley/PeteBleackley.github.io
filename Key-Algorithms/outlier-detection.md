@@ -4,7 +4,7 @@ title: Key Algorithms - Outlier Detection
 
 Many datasets contain *outliers*, datapoints which do not fit the general pattern of the observations. This may be due to errors in the data collection, in which case removing these datapoints will make models fitted to the data more robust and reduce the risk of overfitting. In other cases, the outliers themselves are the signal we want to detect.
 
-One method for doing this is *Isolation Forests*. As the name implies, it is related to the [Random Forest]({% link Key-Algorithms/random-forests.md) algorithm discussed in the previous article. It fits a forest of (usually around 100 %}) random decision trees to the dataset by the following method.
+One method for doing this is *Isolation Forests*. As the name implies, it is related to the [Random Forest]({% link Key-Algorithms/random-forests.md %}) algorithm. It fits a forest of (usually around 100 ) random decision trees to the dataset by the following method.
 
 1. Pick a feature at random
 2. Pick a random threshold in the range of that feature
@@ -34,4 +34,4 @@ by [Dr Peter J Bleackley]({% link index.md %})
 
 Missing and Anomalous Data 
 : *Outlier Detection*
-: [Imputation]({% link Key-Algoruithms/imputation.md %})
+: [Imputation]({% link Key-Algorithms/imputation.md %})
