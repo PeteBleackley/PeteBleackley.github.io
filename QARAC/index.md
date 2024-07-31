@@ -8,4 +8,4 @@ Subsequently, I decided to start a research project to try to put these ideas in
 
 Development of QARAC is currently paused until I have the resources to train the models. This page will be updated when that happens.
 
-by [Dr Peter J Bleackley]({% file index.md %})
+by [Dr Peter J Bleackley]({% link index.md %})
