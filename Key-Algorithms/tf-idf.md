@@ -25,7 +25,7 @@ $$S_{d} = \sum_{i} \mathrm{TFIDF}_{w_{i},d}$$ and retrieve the documents with th
 
 TF-IDF is an example of a *bag of words* model - one based entirely on word frequencies that takes no account of grammar or context. An implementation (to which I have contributed a bug fix) can be found in the [Gensim](https://radimrehurek.com/gensim/) topic modelling library.
 
-By [Dr Peter J Bleackley]({% link ../index.md %})
+By [Dr Peter J Bleackley]({% link index.md %})
  
  [Key Algorithms]({% link Key-Algorithms/index.md %})
  
