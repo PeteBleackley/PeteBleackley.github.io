@@ -5,7 +5,7 @@ title: Key Algorithms - K-Means Clustering
 In the previous article, we discussed [Hierarchical Clustering]({% link Key-Algorithms/hierarchical-clustering.md %}). Another method commonly used method is the *K-Means* algorithm, which attempts to find $K$ clusters such that this variance within the clusters is minimised. It does this by the following method
 
 1. Given an appropriately scaled dataset, choose $K$ points in the range of the data
-2. Assign each point in the dataset to a cluster associated with the nearest of these points, accorting to the [euclidean distance]({% link key-Algorithms/metrics.md %})
+2. Assign each point in the dataset to a cluster associated with the nearest of these points, accorting to the [euclidean distance]({% link Key-Algorithms/metrics.md %})
 3. Recalcuate the points as the means of the datapoints assigned to their clusters
 4. Repeat from step 2 until the assignments converge
 
