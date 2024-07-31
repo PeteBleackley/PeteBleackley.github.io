@@ -34,12 +34,12 @@ Of course, very few data scientists ever need to do this themselves on a day-to-
 
 By [Dr Peter J Bleackley]({% link index.md %})
  
- [Key Algorithms]({% link Key-Algorithmsindex.md %})
+ [Key Algorithms]({% link Key-Algorithms/index.md %})
 
 Components of Neural Networks
 : *The Chain Rule and Backpropogation*
 : [Activation Functions]({% link Key-Algorithms/activation-functions.md %})
-: [Loss Functions]({% link Key-Algorithmsloss-functions.md})
+: [Loss Functions]({% link Key-Algorithms/loss-functions.md})
 : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md %})
 : [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
 : [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
