@@ -2,7 +2,7 @@ title: Key Algorithms - Logistic Regression
 
 #Logistic Regression
 
-We have previously discussed classification in relation to [Bayes' Theorem]({% link bayes-theorem.md %}). Logistic regression provides a different method for relating probabilities to observations.
+We have previously discussed classification in relation to [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}). Logistic regression provides a different method for relating probabilities to observations.
 
 We start with the *logistic function*
 $$p = \frac{1}{1+e^{-q}}$$, where $q$ is a quantity we call a *logit*. This has the property that as $q \rightarrow \infty$, $p \rightarrow 1$ and as $q \rightarrow -\infty$, $p \rightarrow 0$, so it can be used to model a probability. If we wish to calculate the probabilities of more than one class, we can generalise this with the *softmax function*
