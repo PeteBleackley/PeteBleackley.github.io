@@ -2,7 +2,7 @@ title: Key Algorithms - Hidden Markov Models
 
 # Hidden Markov Models
 
-Suppose we wish to analyse a sequence of events $X_{0},X_{1}...X_{t}$. This can be modelled using [Bayes' Theorem]({% link bayes-theorem.md %}) as a *Markov process* $P(X_{t} \mid X_{t-1} )$, *ie* the probability of each event depends on the previous event in the sequence.
+Suppose we wish to analyse a sequence of events $X_{0},X_{1}...X_{t}$. This can be modelled using [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}) as a *Markov process* $P(X_{t} \mid X_{t-1} )$, *ie* the probability of each event depends on the previous event in the sequence.
 
 If there are $N$ possible values that $X$ can take, the number of transition probabilities between them is $N^{2}$. Such a model would quickly become very large and not very informative. We need a way to make the models more tractable.
 
