@@ -2,7 +2,7 @@ title: Key Algorithms - Convolutional Networks
 
 #Convolutional Networks
 
-[Multi Layer Perceptron]({% link multi-layer-perceptron.md %}) networks would not be suitable for computer vision. Consider a fully-connected layer that takes a $1080 \times 1920$ RGB image (this is the resolution of a HDTV image) and outputs $N$ features. This would require $(1080 \times 1920 \times 3 + 1 ) N = 6220801 N$ parameters for the first hidden layer alone. Worse still, it would be unable to generalise - simply shifting the inputs by 1 pixel in any direction would produce a completely different output.
+[Multi Layer Perceptron]({% link Key-Algorithms/multi-layer-perceptron.md %}) networks would not be suitable for computer vision. Consider a fully-connected layer that takes a $1080 \times 1920$ RGB image (this is the resolution of a HDTV image) and outputs $N$ features. This would require $(1080 \times 1920 \times 3 + 1 ) N = 6220801 N$ parameters for the first hidden layer alone. Worse still, it would be unable to generalise - simply shifting the inputs by 1 pixel in any direction would produce a completely different output.
 
 To address this problem, we need to look at how computer vision systems typically worked before deep learning became commonplace. They would start by detecting simple, localised features such as edges, and then build them up into hierachies of more complex features. Algorithms based on this approach can be found in the [OpenCV](https://opencv.org/) library.
 
