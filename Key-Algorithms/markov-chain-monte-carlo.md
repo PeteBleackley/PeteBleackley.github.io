@@ -28,6 +28,6 @@ by [Dr Peter J Bleackley]({% link index.md %})
 
 Bayesian Models
 : [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %})
-: [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %)
+: [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %})
 : [The Viterbi Algorithm]({% link Key-Algorithms/viterbi-algorithm.md %})
 : Markov Chain Monte Carlo*
