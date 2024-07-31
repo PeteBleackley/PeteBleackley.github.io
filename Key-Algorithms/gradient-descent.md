@@ -37,4 +37,4 @@ Components of Neural Networks
 : [Loss Functions]({% link Key-Algorithms/loss-functions.md %})
 : *Gradient Descent*
 : [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
-: [Tokenizers]({% link Key-Algorithms/link tokenizers.md %})
+: [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
