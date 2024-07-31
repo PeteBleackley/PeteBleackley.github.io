@@ -2,7 +2,7 @@ title: Key Algorithms - Tokenizers
 
 #Tokenizers
 
-As mentioned in the article on [transformers]({% link transformers.md %}), most NLP models start by dividing the text into *tokens*. The simplest way of doing this is simply to split the text on whitespace or non-alphabetic characters. [Gensim's tokenize function](https://radimrehurek.com/gensim/utils.html#gensim.utils.tokenize) does this, and it is adequate for bag-of-words models like [TF-IDF]({% link Key-Algorithms/tf-idf.md %}) or [Latent Semantic Indexing]({% link Key-Algorithms/latent-semantic-indexing.md %}). However, it has a number of disadvanteges.
+As mentioned in the article on [transformers]({% link Key-Algorithms/transformers.md %}), most NLP models start by dividing the text into *tokens*. The simplest way of doing this is simply to split the text on whitespace or non-alphabetic characters. [Gensim's tokenize function](https://radimrehurek.com/gensim/utils.html#gensim.utils.tokenize) does this, and it is adequate for bag-of-words models like [TF-IDF]({% link Key-Algorithms/tf-idf.md %}) or [Latent Semantic Indexing]({% link Key-Algorithms/latent-semantic-indexing.md %}). However, it has a number of disadvanteges.
 
 1. Not all languages divide words on spaces - Mandarin and Japanese do not.
 2. Words related to each other by prefixes and suffixes are treated as entirely different words - for example, "surprise", "surprised", "surprising", "surprisingly"  and "unsurprisingly" would not be treated as related words. This is particularly a problem for languages whose morphology carries more information than English's does. Stemming or lemmatisation can partially address this, but discards the information in the affixes.
