@@ -23,7 +23,7 @@ $$\vec{P} = d \mathbf{C} \cdot \vec{P} + (1-d)$$
 
 We then see that the PageRank is a modified form of the first eigenvector of the connection matrix.
 
-Like [Collaborative Filtering]({% link KeyAlgorithms/colaborative-filtering.md %}), PageRank is an example of a *collective intelligence* algorithm, in that it uses data from the actions of a large number of people to infer its scores.
+Like [Collaborative Filtering]({% link Key-Algorithms/colaborative-filtering.md %}), PageRank is an example of a *collective intelligence* algorithm, in that it uses data from the actions of a large number of people to infer its scores.
 
 PageRank is one of the most commercially successful algorithms ever devised, however its uses are not limited to ranking web pages. It can be used to analyse any data that can be modelled as a graph, such as citations in academic papers, patterns of gene activation in cells, or connection in the nervous system. A survey of these uses can be found in [PageRank Beyond the Web](https://www.cs.purdue.edu/homes/dgleich/publications/Gleich%202015%20-%20prbeyond.pdf)
 
