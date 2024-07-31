@@ -24,5 +24,5 @@ by [Dr Peter J Bleackley]({% link index.md %})
 
 Collective Intelligence
 : *Collaborative Filtering*
-: [PageRank]({% link Key-Algorithms/pagerank.md %)
+: [PageRank]({% link Key-Algorithms/pagerank.md %})
 
