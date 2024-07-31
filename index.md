@@ -6,7 +6,7 @@ title: Dr Peter Bleackley's Portfolio
 I'm Dr Peter Bleackley. For most of the 21st Century, I've been working in research and development, mostly as a data scientist. For the past few years I was a contractor, working through my company *Playful Technology Limited* (a name meant to convey the values of curiosity, discovery and innovation), but I'm now moving on from this and looking for fresh opportunities. More details of my career can be found in my [Curriculum Vitae]({% link cv.md}).
 
 ## Key Algorithms
-Between November 2023 and July 2024, I wrote a regular series of articles under the title [Key Algorithms]({% link KeyAlgorithms/index.md %}). These cover the things I believe every data scientist should know. I have brought them over from my old company website and republished them here. They were originally published as a blog, but I have rearranged them thematically.
+Between November 2023 and July 2024, I wrote a regular series of articles under the title [Key Algorithms]({% link Key-Algorithms/index.md %}). These cover the things I believe every data scientist should know. I have brought them over from my old company website and republished them here. They were originally published as a blog, but I have rearranged them thematically.
 
 ## Case Studies
 
