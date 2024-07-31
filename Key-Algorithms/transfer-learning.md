@@ -21,7 +21,7 @@ For [QARAC]({% link QARAC/index.md %}) I am planning to use [RoBERTa](https://hu
 
 By [Dr Peter J Bleackley]({% link index.md %})
  
- [Key Algorithms]({% link Key-Algoritbhms/link index.md %})
+ [Key Algorithms]({% link Key-Algoritbhms/index.md %})
  
  Components of Neural Networks
  : [The Chain Rule and Backpropogation]({% link Key-Algorithms/chain-rule.md %})
