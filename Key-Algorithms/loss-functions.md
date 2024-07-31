@@ -73,7 +73,7 @@ $$\mathcal{L}(y_{t},y_{p}) = y_{t}(\ln(y_{t} - \ln(y_{p})$$
 The derivative is
 $$\frac{d \mathcal{L}}{d y_{p}} = -\frac{y_{t}}{y_{p}}$$
 
-Cross-entropy and Kullback-Liebler divergence are both derived from [Information Theory]({% link information-theory.md %})
+Cross-entropy and Kullback-Liebler divergence are both derived from [Information Theory]({% link Key-Algorithms/information-theory.md %})
 
 Both [PyTorch](https://pytorch.org/docs/stable/nn.html#loss-functions) and [Keras](https://keras.io/api/losses/) provide a wide variety of loss functions.
 
