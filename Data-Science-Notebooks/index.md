@@ -9,7 +9,7 @@ The pages in this section describe various projects I have undertaken with publi
 [The Entropy of Alice In Wonderland]({% link Data-Science-Notebooks/entropy-of-alice-in-wonderland.md %})
 : Using Montemurro and Zanette's algorithm to identify significant words and sentences in the text of *Alice's Adventures in Wonderland*. Illustrates [information theory]({% link Key-Algorithms/information-theory.md %})
 [The Grammar of Truth and Lies]({% link Data-Science-Notebooks/grammar-of-truth-and-lies.md %})
-: Using grammatical features to distinguish real from fake news. Illustates [latent semantic indexing]({% link Key-Algorithms/latent-semantic-indexing.md %), [logistic regression]({% link Key-Algorithms/logistic-regression.md %}) and [random forests]({% link Key-Algorithms/random-forests.md %})
+: Using grammatical features to distinguish real from fake news. Illustates [latent semantic indexing]({% link Key-Algorithms/latent-semantic-indexing.md %}), [logistic regression]({% link Key-Algorithms/logistic-regression.md %}) and [random forests]({% link Key-Algorithms/random-forests.md %})
 [Is It A Mushroom or Is It A Toadstool?]
 : Predicting whether or not fungi are edible. Illustrates [Bayes' theorem]({% link Key-Algorithms/bayes-theorem.md %}) and [information theory]({% link Key-Algorithms.information-theory.md %})
 [Part of Speech Tagging]
