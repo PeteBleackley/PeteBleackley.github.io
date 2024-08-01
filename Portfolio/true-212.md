@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies -True 212
+---
 
-#True 212
+# True 212
 
 ## The Client
 

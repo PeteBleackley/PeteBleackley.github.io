@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - The Chain Rule and Backpropogation
+---
 
 # The Chain Rule and Backpropogation
 

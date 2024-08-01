@@ -1,6 +1,9 @@
+---
+layout: default
 title: Data Science Notebooks - The Grammar of Truth and Lies
+---
 
-#The Grammar of Truth and Lies
+# The Grammar of Truth and Lies
 
 The issue of trust in the media is very important to me, and so when a dataset of fake news items was posted on Kaggle, I decided to see if NLP could be used to distinguish between real and fake news.
 

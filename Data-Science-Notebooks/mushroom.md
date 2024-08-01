@@ -1,6 +1,10 @@
+---
+layout: default
 title: Data Science Notebooks -Is It A Mushroom or Is It A Toadstool?
+---
 
-#Is It A Mushroom or Is It A Toadstool?
+
+# Is It A Mushroom or Is It A Toadstool?
 
 The [UCI Machine Learning Mushroom Classification Dataset](https://www.kaggle.com/uciml/mushroom-classification) on Kaggle tabulates discrete features around 8000 specimens of fungi. There are 23 species represented, and the challenge is to classify which are edible and which are poisonous. Since the data are all categorical, I decided that a Bayesian Belief Network would be a suitable, and used an ad-hoc clustering algorithm to infer a hidden variable.
 

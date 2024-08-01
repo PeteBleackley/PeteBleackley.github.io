@@ -1,5 +1,8 @@
+---
+layout: default
 title: Key Algorithms - Evaluation Metrics for Regression
-Author: Dr Peter J Bleackley
+---
+
 
 # Evaluation Metrics for Regression
 

@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Random Forests
+---
 
-#Random Forests
+# Random Forests
 
 We have mentioned clasification problems in a number of previous articles, and shown how they can be approached with [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}), [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %}) and by extension, neural networks. This week we'll examine a different method, based on *Decision Trees*.
 

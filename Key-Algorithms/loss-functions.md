@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Loss Functions
+---
 
-#Loss Functions
+# Loss Functions
 
 In several articles, we have mentioned *Loss Functions*. These are the functions we aim to minimise when fitting the model. These are functions $$\mathcal{L}(y_{t},y_{p})$$ where $y_{t}$ is the true value of the target variable and $y_{p}$ is the predicted output. They should have the following properties.
 

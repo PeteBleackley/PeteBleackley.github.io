@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Graph Search Algorithms
+---
 
-#Graph Search Algorithms
+# Graph Search Algorithms
 
 There are many applications in which we might wish to navigate our way through a graph of nodes and edges - route finding for satnav systems, controlling character movement in video games, routing traffic on the Internet, crawling the web for a search engine, or finding information in a vector database, for example. 
 

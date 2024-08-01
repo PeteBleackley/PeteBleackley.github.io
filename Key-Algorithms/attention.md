@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - The Attention Mechanism
+---
 
-#The Attention Mechanism
+# The Attention Mechanism
 
 Natural Language Processing systems need to take account the fact that the meaning of a word is dependent on the context in which it occurs. Earlier generations of NLP systems addressed this is various ways. The simplest was to group words into bigrams and trigrams before performing [Latent Semantic Indexing]({% link Key-Algorithms/latent-semantic-indexing.md %}). Another approach was to map the words to an unambiguous ontology using Word Sense Disambiguation, as I did in my work at [True 212]({% link Portfolio/true-212.md %}) using the [Viterbi Algorithm]({% link Key-Algorithms/viterbi-algorithm.md %}). More recently [Recurrent Neural Networks]({% link Key-Algorithms/recurrent-neural-networks.md %}) have been used.
 

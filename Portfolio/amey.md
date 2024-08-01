@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies -  Amey Strategic Consulting
+---
 
-#Amey Strategic Consulting
+# Amey Strategic Consulting
 
 
 ## The Client

@@ -1,4 +1,7 @@
+---
+layout: default
 title: QARAC: Porting to PyTorch
+---
 
 #QARAC: Porting to PyTorch
 

@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms -  Markov Chain Monte Carlo
+---
 
 # Markov Chain Monte Carlo
 

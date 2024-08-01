@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies - Social Finance
+---
 
-#Social Finance
+# Social Finance
 
 ## The Client
 

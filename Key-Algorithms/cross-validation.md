@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - Cross Validation
+---
 
 # Cross Validation
 

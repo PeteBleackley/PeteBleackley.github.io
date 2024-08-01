@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms -  Information Theory
+---
 
 # Information Theory 
 

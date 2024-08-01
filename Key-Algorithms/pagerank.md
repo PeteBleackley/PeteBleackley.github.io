@@ -1,6 +1,10 @@
+---
+layout: default
 title: Key Algorithms - PageRank
+---
 
-#PageRank
+
+# PageRank
 
 Early web search engines, such as AltaVista, relied on hand-curated indexes of content. This was, of course, difficult to scale. What was needed was an automatic way of ranking web pages. Larry *Page*, developed an algorithm for *ranking* the importance of nodes in a network (such as web *pages*) in terms of their connections during his PhD at Stanford University, and then went on to found Google to exploit his research.
 

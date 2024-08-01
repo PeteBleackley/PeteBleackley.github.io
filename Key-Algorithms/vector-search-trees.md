@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Vector Search Trees
+---
 
-#Vector Search Trees
+# Vector Search Trees
 
 There are many applications where we need to search a dataset for the nearest neghbours of a given point. For a large dataset, comparing the data point to the entire dataset will be too slow, especially if we need to do it frequently. If we store the dataset to be searched in a tree structure, we can improve the efficiency of queries from $\mathcal{O} (N)$ to $\mathcal{O} (\log N)$.
 

@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Multi Layer Perceptron
+---
 
-#Multi Layer Perceptron
+# Multi Layer Perceptron
 
 One of my aims for this series of articles is to cover the things every data scientist should know. Since neural networks are so ubiquitous in data science, they certainly fit this description.
 

@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies -All Street Research
+---
 
-#All Street Research
+# All Street Research
 
 ## The Client
 

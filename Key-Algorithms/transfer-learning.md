@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Transfer Learning
+---
 
-#Transfer Learning
+# Transfer Learning
 
 As mentioned in the article about [Multi Layer Perceptron]({% link Key-Algorithms/multi-layer-perceptron.md %}), neural networks need a lot of data and computing time to train. This is especially true for the models currently used in computer vision and natural language processing - large language models have billions of weights to train, and are typically trained on resources like [the Common Crawl](https://commoncrawl.org/) or [the Pile](https://pile.eleuther.ai/}), which contain petabytes of data. 
 

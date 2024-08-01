@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - Hidden Markov Models
+---
 
 # Hidden Markov Models
 

@@ -1,4 +1,7 @@
+---
+layout: default
 title: Dr Peter Bleackley's Portfolio
+---
 # Dr Peter Bleackley's Portfolio
 
 ## About Me

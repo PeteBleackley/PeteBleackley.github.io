@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Priority Queues
+---
 
-#Priority Queues
+# Priority Queues
 
 While researching the article on [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md %}), I found that two methods for constructing ball trees and the algorithm for querying ANNOY both involved *Priority Queues*. Since these are an important component of a number of different algorithms, it is worth examining them in detail.
 

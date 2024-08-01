@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - K-Means Clustering
+---
 
 # K-Means Clustering
 

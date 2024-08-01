@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - Gradient Descent
+---
 # Gradient Descent
 
 In several of these articles, we have mentioned the need to train models. For many models, including [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %}), [Linear Regression]({% link Key-Algorithms/linear-regression.md %}), and most forms of neural network, this is done by some form of *Gradient Descent*. Given a model

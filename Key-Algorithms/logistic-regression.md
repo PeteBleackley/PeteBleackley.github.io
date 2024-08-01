@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Logistic Regression
+---
 
-#Logistic Regression
+# Logistic Regression
 
 We have previously discussed classification in relation to [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}). Logistic regression provides a different method for relating probabilities to observations.
 

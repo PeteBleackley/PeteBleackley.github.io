@@ -1,4 +1,8 @@
+---
+layout: default
 title: Key Algorithms - Data Reduction
+---
+
 # Data Reduction
 
 Datasets that involve a large number of features suffer from *The Curse of Dimensionality*, where, as the number of features increases, it becomes harder and harder to use them to define a meaningful [measure of distance]({% link Key-Algorithms/metrics.md %}) between the samples. It becomes necessary to map the data into a smaller number of dimensions. To do this, we need to find mathematical relatioships between the features that can be used to form a more economical representation of the data.

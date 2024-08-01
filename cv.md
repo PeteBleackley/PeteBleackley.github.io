@@ -1,4 +1,8 @@
+---
+layout: default
 title: Dr Peter Bleackley's Curriculum Vitae
+---
+
 # Curriculum Vitae
 ## [Doctor Peter J Bleackley]({% link index.md %})
 

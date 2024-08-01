@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Tokenizers
+---
 
-#Tokenizers
+# Tokenizers
 
 As mentioned in the article on [transformers]({% link Key-Algorithms/transformers.md %}), most NLP models start by dividing the text into *tokens*. The simplest way of doing this is simply to split the text on whitespace or non-alphabetic characters. [Gensim's tokenize function](https://radimrehurek.com/gensim/utils.html#gensim.utils.tokenize) does this, and it is adequate for bag-of-words models like [TF-IDF]({% link Key-Algorithms/tf-idf.md %}) or [Latent Semantic Indexing]({% link Key-Algorithms/latent-semantic-indexing.md %}). However, it has a number of disadvanteges.
 

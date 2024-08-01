@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies - Pentland Brands
+---
 
-#Pentland Brands
+# Pentland Brands
 
 ## The Client
 

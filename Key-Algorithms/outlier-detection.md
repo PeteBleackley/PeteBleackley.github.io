@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Outlier Detection
+---
 
-#Outlier Detection
+# Outlier Detection
 
 Many datasets contain *outliers*, datapoints which do not fit the general pattern of the observations. This may be due to errors in the data collection, in which case removing these datapoints will make models fitted to the data more robust and reduce the risk of overfitting. In other cases, the outliers themselves are the signal we want to detect.
 

@@ -1,5 +1,9 @@
+---
+layout: default
 title: Key Algorithms -Latent Semantic Indexing
-#Latent Semantic Indexing
+---
+
+# Latent Semantic Indexing
 
 In the article on [data reduction]({% link Key-Algorithms/data-reduction.md %}), we mentioned the *curse of dimensionality*, whereby large numbers of features make data increasingly difficult to analyse meaningfully. If we take another look at [TF-IDF]({$ link Key-Algorithms/tf-idf.md %}), we see that this will generate a feature for each unique word in the corpus that it is trained on, which may be in the tens of thousands. It therefore makes sense to apply a data reduction method and obtain a more compact representation.
 

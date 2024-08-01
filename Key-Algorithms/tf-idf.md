@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - TF-IDF
+---
 
-#TF-IDF
+# TF-IDF
 
 In the post on [Similarity and Distance Metrics]({% link Key-Algorithms/metrics.md %}), we mentioned that Levenshtein distance is only suitable for comparing short strings. One reason for this, as previously discussed, is computational complexity, but another is that by comparing *characters*, it says nothing about the *meaning* of what it compares.
 

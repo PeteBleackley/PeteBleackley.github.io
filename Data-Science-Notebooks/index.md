@@ -1,6 +1,9 @@
+---
+layout: default
 title: Data Science Notebooks
+---
 
-#Data Science Notebooks
+# Data Science Notebooks
 
 The pages in this section describe various projects I have undertaken with publicly avaialble datasets, mostly on Kaggle. They provide an opportunity to see practical demonstrations of my data science work.
 

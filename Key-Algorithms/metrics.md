@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Similarity and Distance Metrics
+---
 
-#Similarity and Difference Metrics 
+# Similarity and Difference Metrics 
 
 Data scientists often need to compare data points. This is necessary for indexing data, for finding clusters in datasets, for detecting outliers and anomalies, for comparing user behaviour in recommendations systems, and for measuring quality of fit when predicting continuous variables. There are various metrics that can be used for this purpose.
 

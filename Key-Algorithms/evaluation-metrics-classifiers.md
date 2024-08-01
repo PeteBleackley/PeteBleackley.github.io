@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - Evaluation Metrics for Classifiers
+---
 
 # Evaluation Metrics for Classifiers
 

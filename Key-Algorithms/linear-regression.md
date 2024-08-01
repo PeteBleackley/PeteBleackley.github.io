@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - Linear Regression
+---
 
 # Linear Regression
 

@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies - Rolls Royce AI Hub
+---
 
-#Rolls Royce AI Hub
+# Rolls Royce AI Hub
 
 ## The Client
 

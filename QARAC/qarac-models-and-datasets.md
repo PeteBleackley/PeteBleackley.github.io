@@ -1,4 +1,7 @@
+---
+layout: default
 title: QARAC: Models and Corpora
+---
 
 #QARAC: Models and Corpora
 

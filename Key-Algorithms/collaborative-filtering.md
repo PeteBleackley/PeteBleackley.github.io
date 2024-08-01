@@ -1,6 +1,9 @@
+---
+layout: default
 title: Key Algorithms - Collaborative Fitering
+---
 
-#Collaborative Filtering
+# Collaborative Filtering
 
 A problem of interest to a lot of businesses is *recommedation* - how to predict what their customers are likely to want. One of the simplest approaches to this is *Collaborative Fitering*, which works by identifying users with similar tastes.
 

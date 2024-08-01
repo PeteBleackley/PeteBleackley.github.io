@@ -1,4 +1,7 @@
+---
+layout: default
 title: QARAC: Question Answering, Reasoning and Consistency
+---
 
 #QARAC: Question Answering, Reasoning and Consistency
 

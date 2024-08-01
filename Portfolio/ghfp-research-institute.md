@@ -1,6 +1,9 @@
+---
+layout: default
 title: Case Studies - GHFP Research Institute
+---
 
-#GHFP Research Institute
+# GHFP Research Institute
 
 ## The Client
 

@@ -1,4 +1,7 @@
-title: Key Algorithms -Hierarchical Clustering
+---
+layout: default
+title: Key Algorithms - Hierarchical Clustering
+---
 
 # Hierarchical Clustering
 

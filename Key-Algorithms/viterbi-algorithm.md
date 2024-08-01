@@ -1,4 +1,7 @@
+---
+layout: default
 title: Key Algorithms - The Viterbi Algorithm
+---
 
 # The Viterbi Algorithms
 

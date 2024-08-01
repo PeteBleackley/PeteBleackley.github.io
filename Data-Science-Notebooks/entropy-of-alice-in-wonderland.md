@@ -1,6 +1,9 @@
+---
+layout: default
 title: Data Science Notebooks - The Entropy of "Alice in Wonderland"
+---
 
-#The Entropy of Alice in Wonderland
+# The Entropy of Alice in Wonderland
 
 Several years ago. I read in [New Scientist](https://www.newscientist.com/) about an information theory based technique for identifying the most significant words in a document, according to the role they play in its structure. After looking up the paper, [Towards the quantification of semantic information in written language](https://arxiv.org/abs/0907.1558) by Marcello Montemurro and Damian Zanette, I implemented the algorithm and contributed it to [Gensim](https://radimrehurek.com/gensim/). Unfortunately, it's no longer in the latest release, but I have created a [fork of Gensim](https://github.com/PeteBleackley/gensim) to allow further development of features that have been dropped from the latest release.
 

@@ -1,6 +1,9 @@
+---
+layout: default
 title: Data Science Notebooks - Clustering Proteins in Breast Cancer Patients
+---
 
-#Clustering Proteins in Breast Cancer Patients
+# Clustering Proteins in Breast Cancer Patients
 
 Breast cancer is the most common form of cancer in women, and most of us probably know somebody who's been affected by it, so when another data scientist suggested I look at the breast cancer proteome on Kaggle, I thought it was a worthwhile thing to do. I'm not a biologist, but I know that cell behaviour involves complex networks of interacting proteins, so I thought that clustering would be a good way of uncovering these networks. I was pleased to discover that the protein clusters discovered seemed to be predictive of clinical outcomes.
 

@@ -1,5 +1,9 @@
+---
+layout: default
 title: How many components?
-#How Many Components
+---
+
+# How Many Components
 
 
 A common problem in data science is *the curse of dimensionality*. Essentially, the more different variables a dataset encompasses, the more mathematically intractible it is to make measurements based on them all. The usual method for dealing with this problem is [Principal Component Analysis]({% link Key-Algorithms/data-reduction.md %}), which seeks to reduct the data to a lower number of dimension while retaining as much information as possible. The most common method of doing this is as follows.
