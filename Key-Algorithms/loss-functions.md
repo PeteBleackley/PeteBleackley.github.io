@@ -25,7 +25,7 @@ $$\mathcal{L}(y_{t},y_{p}) = |y_{t} - y_{p}|$$ would avoid this problem, but is 
 
 $$\mathcal{L}(y_{t},y_{p}) = \min(\frac{(y_{t} - y_{p})^2)}{2}, \delta (|y_{t} - y_{p}| - \frac{\delta}{2}))$$
 
-This behaves like Mean Squared Error for $|y_{t} - y_{p}| < \delta$, and like Mean Absolute Error for $|y_{t} - y_{p}| > \delta$, where $\delta$ is a scale above which we wish to reduce the influence of outliers. The derivative is given by
+This behaves like Mean Squared Error for $ |y_{t} - y_{p}| < \delta $, and like Mean Absolute Error for $ |y_{t} - y_{p}| > \delta $, where $\delta$ is a scale above which we wish to reduce the influence of outliers. The derivative is given by
 
 $$\frac{d \mathcal{L}}{d y_{p}} = \max(-\delta,\min(\delta,\delta (y_{p} - y_{t})))$$
 
