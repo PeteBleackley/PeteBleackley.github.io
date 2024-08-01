@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Multi Layer Perceptron
 ---
+{% include maths.html %}
 
 # Multi Layer Perceptron
 

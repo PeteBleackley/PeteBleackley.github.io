@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Bayes' Theorem
 ---
+
+{% include maths.html %}
 
 # Bayes Theorem 
 

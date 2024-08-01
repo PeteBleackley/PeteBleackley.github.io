@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Evaluation Metrics for Regression
 ---
 
+{% include maths.html %}
 
 # Evaluation Metrics for Regression
 

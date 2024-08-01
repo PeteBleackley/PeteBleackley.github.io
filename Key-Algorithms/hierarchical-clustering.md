@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Hierarchical Clustering
 ---
+{% include maths.html %}
 
 # Hierarchical Clustering
 

@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Outlier Detection
 ---
+
+{% include maths.html %}
 
 # Outlier Detection
 

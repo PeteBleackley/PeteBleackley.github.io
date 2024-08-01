@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - K-Means Clustering
 ---
+{% include maths.html %}
 
 # K-Means Clustering
 

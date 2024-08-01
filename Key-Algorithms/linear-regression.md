@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Linear Regression
 ---
+
+{% include maths.html %}
 
 # Linear Regression
 

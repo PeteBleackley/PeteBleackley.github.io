@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Data Reduction
 ---
+
+{% include maths.html %}
 
 # Data Reduction
 

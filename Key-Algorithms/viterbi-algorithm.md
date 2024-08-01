@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - The Viterbi Algorithm
 ---
+
+{% include maths.html %}
 
 # The Viterbi Algorithms
 

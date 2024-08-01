@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Data Science Notebooks - The Entropy of "Alice in Wonderland"
 ---
 

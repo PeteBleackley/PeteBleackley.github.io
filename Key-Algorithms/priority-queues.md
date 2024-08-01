@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Priority Queues
 ---
+{% include maths.html %}
 
 # Priority Queues
 

@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Graph Search Algorithms
 ---
+{% include maths.html %}
 
 # Graph Search Algorithms
 

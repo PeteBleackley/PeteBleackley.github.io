@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Cross Validation
 ---
+
+{% include maths.html %}
 
 # Cross Validation
 

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Data Science Noteboos Part of Speech Tagging
 ---
 

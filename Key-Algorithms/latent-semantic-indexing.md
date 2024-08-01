@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms -Latent Semantic Indexing
 ---
+{% include maths.html %}
 
 # Latent Semantic Indexing
 

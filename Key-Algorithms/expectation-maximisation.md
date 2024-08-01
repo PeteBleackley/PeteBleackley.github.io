@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Expectation Maximisation
 ---
+
+{% include maths.html %}
 
 # Expectation Maximisation
 

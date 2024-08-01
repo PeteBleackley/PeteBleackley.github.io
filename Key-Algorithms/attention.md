@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - The Attention Mechanism
 ---
+
+{% include maths.html %}
 
 # The Attention Mechanism
 

@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - The Chain Rule and Backpropogation
 ---
+
+{% include maths.html %}
 
 # The Chain Rule and Backpropogation
 

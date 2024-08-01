@@ -1,7 +1,8 @@
 ---
-layout: default
 title: "QARAC: Models and Corpora"
 ---
+
+{% include maths.html %}
 
 # QARAC: Models and Corpora
 

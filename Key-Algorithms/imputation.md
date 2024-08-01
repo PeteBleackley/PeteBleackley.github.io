@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Imputation
 ---
+{% include maths.html %}
 
 # Imputation
 

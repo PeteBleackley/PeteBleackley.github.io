@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms -  Markov Chain Monte Carlo
 ---
+{% include maths.html %}
 
 # Markov Chain Monte Carlo
 

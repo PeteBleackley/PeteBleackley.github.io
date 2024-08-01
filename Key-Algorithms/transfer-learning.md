@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Transfer Learning
 ---
+
+{% include maths.html %}
 
 # Transfer Learning
 

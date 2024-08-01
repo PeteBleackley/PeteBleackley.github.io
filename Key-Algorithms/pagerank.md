@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - PageRank
 ---
 
+{% include maths.html %}
 
 # PageRank
 

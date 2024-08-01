@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Tokenizers
 ---
+
+{% include maths.html %}
 
 # Tokenizers
 

@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Random Forests
 ---
+{% include maths.html %}
 
 # Random Forests
 

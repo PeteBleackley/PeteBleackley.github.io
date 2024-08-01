@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - TF-IDF
 ---
+{% include maths.html %}
 
 # TF-IDF
 

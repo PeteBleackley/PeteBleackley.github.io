@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Logistic Regression
 ---
+{% include maths.html %}
 
 # Logistic Regression
 

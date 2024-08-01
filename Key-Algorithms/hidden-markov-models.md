@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Hidden Markov Models
 ---
+
+{% include maths.html %}
 
 # Hidden Markov Models
 

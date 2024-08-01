@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Similarity and Distance Metrics
 ---
+{% include maths.html %}
 
 # Similarity and Difference Metrics 
 

@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms -  Information Theory
 ---
+{% include maths.html %}
 
 # Information Theory 
 

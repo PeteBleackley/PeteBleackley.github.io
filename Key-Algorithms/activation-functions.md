@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Activation Functions
 ---
+{% include maths.html %}
 # Activation Functions
 
 

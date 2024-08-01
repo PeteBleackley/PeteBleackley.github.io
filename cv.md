@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Dr Peter Bleackley's Curriculum Vitae
 ---
 

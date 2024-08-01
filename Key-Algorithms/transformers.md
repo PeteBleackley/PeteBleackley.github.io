@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Transformers
 ---
+{% include maths.html %}
 
 # Transformers
 

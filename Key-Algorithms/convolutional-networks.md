@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Convolutional Networks
 ---
+
+{% include maths.html %}
 
 # Convolutional Networks
 

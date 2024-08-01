@@ -1,7 +1,8 @@
 ---
-layout: default
 title: "QARAC: Question Answering, Reasoning and Consistency"
 ---
+
+{% include maths.html %}
 
 # QARAC: Question Answering, Reasoning and Consistency
 

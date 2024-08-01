@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Vector Search Trees
 ---
+
+{% include maths.html %}
 
 # Vector Search Trees
 

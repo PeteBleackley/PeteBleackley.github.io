@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Collaborative Fitering
 ---
+
+{% include maths.html %}
 
 # Collaborative Filtering
 

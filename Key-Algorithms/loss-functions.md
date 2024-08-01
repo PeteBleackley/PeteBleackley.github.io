@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Key Algorithms - Loss Functions
 ---
+{% include maths.html %}
 
 # Loss Functions
 

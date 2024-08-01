@@ -1,5 +1,4 @@
 ---
-layout: default
 title: The Future of Natural Language Processing
 ---
 

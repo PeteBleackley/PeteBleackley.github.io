@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Evaluation Metrics for Classifiers
 ---
+
+{% include maths.html %}
 
 # Evaluation Metrics for Classifiers
 

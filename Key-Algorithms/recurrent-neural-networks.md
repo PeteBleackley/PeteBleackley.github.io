@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Key Algorithms - Recurrent Neural Networks
 ---
+
+{% include maths.html %}
 
 # Recurrent Neural Networks
 
