@@ -1,9 +1,9 @@
 ---
 layout: default
-title: QARAC: Question Answering, Reasoning and Consistency
+title: "QARAC: Question Answering, Reasoning and Consistency"
 ---
 
-#QARAC: Question Answering, Reasoning and Consistency
+# QARAC: Question Answering, Reasoning and Consistency
 
 Following on from my previous article on [The Future of Natural Language Processing]({% link QARAC/future-of-nlp.md %}), I've decided to start start a personal research project to put some of these ideas into practice and test them out. 
 

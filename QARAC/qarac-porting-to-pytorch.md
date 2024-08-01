@@ -1,9 +1,9 @@
 ---
 layout: default
-title: QARAC: Porting to PyTorch
+title: "QARAC: Porting to PyTorch"
 ---
 
-#QARAC: Porting to PyTorch
+# QARAC: Porting to PyTorch
 
 Most of my previous work with neural networks has been based on the [Keras](https://keras.io) library, so in implementing QARAC, I initially used what I was most familiar with. Some lower-level parts of the algorithm were implemented in [TensorFlow](https://tensorflow.org), which for some years has been the default backend to Keras (however, it is now possible to use Keras with a choice of backends again). 
 

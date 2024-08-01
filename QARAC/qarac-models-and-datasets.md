@@ -1,9 +1,9 @@
 ---
 layout: default
-title: QARAC: Models and Corpora
+title: "QARAC: Models and Corpora"
 ---
 
-#QARAC: Models and Corpora
+# QARAC: Models and Corpora
 
 I've made some early progress on developing QARAC, and I'm not far from being able to make a first attempt at training it. I've chosen base models, coded the model heads and the training model, and found appropriate datasets to train on.
 
