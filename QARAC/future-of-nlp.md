@@ -2,7 +2,8 @@
 layout: default
 title: The Future of Natural Language Processing
 ---
-#The Future of Natural Language Processing
+
+# The Future of Natural Language Processing
 
 [ChatGPT](https://openai.com/blog/chatgpt/) and similar generative language models have been attracting a lot of attention recently. The trouble is, that while they're good at producing fluent text, they don't necessarily produce accurate or useful text. With ChatGPT, the fact that it admits that it doesn't know the answer some of the time produces a false expectation that it knows what it's talking about the rest of the time, but if you ask it questions about a subject you know about, you'll find it makes mistakes ranging from the subtle to the absurd. [CNET](https://www.engadget.com/cnet-reviewing-ai-written-articles-serious-errors-113041405.html) found the hard way that generative models are not a reliable source of content. The reason for this is that the text they generate is based on statistical patterns inferred from their training datasets. At no stage in the process does the model actually understand either the text it's been trained on or what it is being asked to do. It is surmised that in a sufficiently complex model, such understanding may arise as an emergent property of the network, but even if it does, large language models are generally trained on text harvested from the internet, thus leading to a garbage-in garbage-out problem.
 
@@ -12,10 +13,13 @@ However, it clearly isn't enough to trust the neural network. Future generations
 
 These vectors have the property that arithmetical negation corresponds to logical negation. It's possible, therefore, that we could perform logical inference by means of arithmetical operations of the vectors. The sum of two vectors may correspond to a logical syllogism, allowing the system to deduce new facts from its knowledge base.
 
-A system that could model consistency would have a lot of powerful applications. [Fake News Detection]({% link /Data-Science-Notebooks/grammar-of-truth-and-lies.md %}) is one possibility - if a document repeatedly contradicted trusted sources, it could be classified as unreliable. Conversely, a document would also be suspicious if it made similar claims to sources known to be unreliable - the QAnon conspiracy theory made similar claims to [The Secret History](https://sourcebooks.fordham.edu/basis/procop-anec.asp}) - smear campaigns and scare stories haven't changed much since Roman times. Used alongside anomaly detection, it could also detect when an author had concealed dubious claims in an otherwise factual document. However, it could also be a proof-reading tool, allowing authors and editors to check their work for errors more efficiently.
+A system that could model consistency would have a lot of powerful applications. [Fake News Detection]({% link Data-Science-Notebooks/grammar-of-truth-and-lies.md %}) is one possibility - if a document repeatedly contradicted trusted sources, it could be classified as unreliable. Conversely, a document would also be suspicious if it made similar claims to sources known to be unreliable - the QAnon conspiracy theory made similar claims to [The Secret History](https://sourcebooks.fordham.edu/basis/procop-anec.asp}) - smear campaigns and scare stories haven't changed much since Roman times. Used alongside anomaly detection, it could also detect when an author had concealed dubious claims in an otherwise factual document. However, it could also be a proof-reading tool, allowing authors and editors to check their work for errors more efficiently.
 
 It would also be able to detect opinion and partisanship. Suppose two sources both make claims A and B. However, one source also makes claim C and the other makes claim D. While neither of C or D is inconsistent with A or B, they are inconsistent with each other. We can therefore deduce that A and B are more likely to be accepted by consensus as fact, whereas C and D are opinions. Clustering sources by which opinions they were likely to share would identify partisan groups of sources.
 
 These are just a few possible applications - the ones that occur to me off the top of my head - but they clearly show that knowledge, consistency and reasoning are the missing ingredients needed to make NLP technology truly useful.
 
+by [Dr Peter J Bleackley]({% link index.md %})
+
+[QARAC]({% link QARAC/index.md %})
 
