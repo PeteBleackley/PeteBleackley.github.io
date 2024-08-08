@@ -13,48 +13,61 @@ Director of a data science consultancy undertaking research and development proj
 
 ##### Clients
 CloudNC
-: Research and Development of Bayesian Models to predict the optimal operating parameters for CNC
-tools
+: Research and Development of Bayesian Models to predict the optimal operating parameters for CNC tools
+
 eFinacialCareers
 : Startiing up new data science function for client after demerger from parent company. 
 : Cross-training a developer as a data scientist and interviewing permanent senior data scientist. 
-: Investigating possible improvements to existing job matching system, and prototyping content-based recommendation system to match candidates to jobs
+: Investigating possible improvements to existing job matching system, and prototyping content-based recommendation system to match candidates to jobs.
+
 Arthur D Little
 : Developing Natural Language Processing technology for a medical diagnostics startup. Included
 work on separating sentences containing conjunctions into multiple sentences.
+
 Adecco
 : Named Entity Recognition, Named Entity Linking and document classification for matching CVs to
 job descriptions.
+
 Sopra Steria
-: Improving the training system for anti-money-laundering software for HSBC
+: Improving the training system for anti-money-laundering software for HSBC.
+
 [GHFP Reseach Institute]({% link Portfolio/ghfp-research-institute.md %})
 : Created an interactive map of the [Better Place Index](https://www.thebetterplaceindex.report/map).
+
 [Amey Strategic Consulting]({% link Portfolio/amey.md %})
 : Created an automatic diagnostic system to detect faults in traffic flow sensors on the strategic road network.
+
 Cambridge Quantum Computing Limited
-: Developed MongoDB-based data capture and postprocessing software for a quantum random number generation system
+: Developed MongoDB-based data capture and postprocessing software for a quantum random number generation system.
+
 [Pentland Brands Limited]({% link Portfolio/pentland-brands.md %})
-: Performed a proof-of-concept study on the use of facial point-cloud data to recommend swimming
-goggles.
+: Performed a proof-of-concept study on the use of facial point-cloud data to recommend swimming goggles.
+
 [Rolls Royce AI Hub]({% link Portfolio/rolls-royce.md %})
 : Created a testbed for a specialist search application
-: Developed a parser library to extract logically-structured data from technical documents in a variety of formats, including scanned PDFs
-: Advised on tenders and collaborative projects
+: Developed a parser library to extract logically-structured data from technical documents in a variety of formats, including scanned PDFs.
+: Advised on tenders and collaborative projects.
+
 [All Street Research]({% link Portfolio/allstreet.md %})
-: Rapid-prototyped a document mining system that identified the most relevant paragraphs for given themes in corporate documents
+: Rapid-prototyped a document mining system that identified the most relevant paragraphs for given themes in corporate documents.
+
 Boehringer Ingelheim
 : Investigated text mining of healthcare forums for phamacovigilance data.
 [True 212]({% link Portfolio/true-212.md %})
 : Created a computational linguistics pipeline to enable semantic matching between blogs and external content to identify relevant links.
+
 TechBit
 : Developed algorithms to classify swimming strokes and extract performance metrics from motion sensor data.
+
 [Formisimo]({% link Portfolio/formisimo.md %})
-: Improved the accuracy of a system that predicted, in real time, whether a user would complete or abandon a web form
+: Improved the accuracy of a system that predicted, in real time, whether a user would complete or abandon a web form.
+
 [Social Finance]({% link Portfolio/social-finance.md %})
-: Created an ETL system that transformed XML files of social services data into Postgres tables,
-cleansed inconsistent data, inferred missing data where possible, and prevented deanonymisation.
+: Created an ETL system that transformed XML files of social services data into Postgres tables, cleansed inconsistent data, inferred missing data where possible, and prevented deanonymisation.
+
 Metafused
 : Created a system to extract semantic data from free text
+
 Valtech
 : Advised a social media startup on artificial intelligence technology.
 
