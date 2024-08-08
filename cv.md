@@ -76,7 +76,7 @@ Valtech
 
 Developed algorithms for lidar point cloud analysis and vector model fitting software.
 
-#### Product Innovation and Experiende Lead
+#### Product Innovation and Experience Lead
 **HumanLearning Limited** November 2013 - June 2014
 
 Developed content and behaviour based recommendation for a social learning /business communication product.
