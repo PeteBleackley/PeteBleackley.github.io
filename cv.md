@@ -15,7 +15,7 @@ Director of a data science consultancy undertaking research and development proj
 CloudNC
 : Research and Development of Bayesian Models to predict the optimal operating parameters for CNC tools
 
-eFinacialCareers
+eFinancialCareers
 : Startiing up new data science function for client after demerger from parent company. 
 : Cross-training a developer as a data scientist and interviewing permanent senior data scientist. 
 : Investigating possible improvements to existing job matching system, and prototyping content-based recommendation system to match candidates to jobs.
