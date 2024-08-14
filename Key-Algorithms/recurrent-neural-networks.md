@@ -8,7 +8,9 @@ title: Key Algorithms - Recurrent Neural Networks
 
 *Recurrent Neural Networks* (RNN) are to [neural networks]({% link Key-Algorithms/multi-layer-perceptron.md %}) what [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %}) are to [Bayesian Models]({% link Key-Algorithms/bayes-theorem.md %}). That is, they are a form of the model that is designed to analyse sequences which evolve over time. While 1-dimensional [Convolutional Networks]({% link Key-Algorithms/convolutional-networks.md %}) can be used to analyse sequences, they are sensitive mainly to short range relationships between samples, whereas recurrent networks aim to capture longer range relationships.
 
-In general, given the input {% raw %}$\vec{x}_{t}${% endraw %} at timestep $t$, and the previous output {% raw %} $y_{t-1}${% endraw %}
+In general, given the input {% raw %} $\vec{x}_{t}$ {% endraw %} 
+at timestep $t$, and the previous output 
+{% raw %} $y_{t-1}$ {% endraw %}
 the output {% raw %}$\vec{y}_{t}$ {% endraw %} is calculated as
 {% raw %}$$\vec{y}_{t} = g(\vec{x}_{t}, \vec{c}_{t}, \vec{y}_{t-1})$${% endraw %}
 where  {% raw %} $\vec{c}_{t}$ {% endraw %} is a *cell state* vector, which is updated by
