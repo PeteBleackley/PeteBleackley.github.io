@@ -14,7 +14,7 @@ $$\vec{y}_{t} = g(\vec{x}_{t}, \vec{c}_{t}, \vec{y}_{t-1})$$
 where  $\vec{c}_{t}$ is a *cell state* vector, which is updated by
 $$\vec{c}_{t} = f(\vec{x}_{t}, \vec{c}_{t-1}, \vec{y}_{t-1})$$
 $f$ and $g$ are learnable functions. The simplest version is the *Ellman RNN*
-$$\vec{y}_{t} = \tanh(\mathbf{W}_{i} \cdot \vec{x}_{t} + \mathbf{W}_{h} \cdot \vec{y}_{t-1})$$
+$$\vec{y}_{t} = \tanh(\mathbf{W}_{i} \cdot \vec{x}_{t} + \mathbf{W}_{h} \cdot \vec{y}_{t-1} +\vec{b} )$$
 where in general $\mathbf{W}$ and $\vec{b}$ are weight matrices and bias terms respectively. Elsewhere you will see these equations written with two different bias terms, but since they are additive, it is mathematically equivalent (and simpler) to express them as one.
 
 When training a recurrent network, gradients must be [backpropogated]({% link Key-Algorithms/chain-rule.md %}) over a large number of timesteps, which in simple recurrent models leads to the vanishing gradient problem. Currently used recurrent network architectures are designed to mitigate this problem.
