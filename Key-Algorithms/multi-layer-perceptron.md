@@ -22,7 +22,9 @@ $$\vec{y} = g(\mathbf{W}_{N} \cdot \vec{h_{N-1}} + \vec{b_{N}})$$
 
 repressenting the model's prediction of the target variable, where 
 {% raw %} $\mathbf{W}_{i}$ {% endraw %}
+
  are weights, {% raw %} $\vec{b_{i}}$ {% endraw %} are biases, 
+ 
  and $f$ and $g$ are [activation functions]({% link Key-Algorithms/activation-functions.md %}). In general, the activation functions are non-linear, to allow the model to learn a non-linear function, and differentiable, to allow weights and biases to be learned by [Backpropogation]({% link Key-Algorithms/chain-rule.md %}). While $f$ is usually the same for all hidden layers, $g$ is chosen according to the outputs required - for example, a [softmax function]({% link Key-Algorithms/logistic-regression.md %}) may be used for classification problems.
 
 Multi Layer Perceptron networks are powerful algorithms, but they do have some disadvantages. Generally, using more layers allows them to make better predictions - indeed, it when the computational power to train and run networks with many layers (*deep learning*) became available that neural networks first became viable for mainstream use. However, the number of hidden layers and the width of each layer are hyperparameters that may need some experimentation to choose correctly. The complexity of the models means that a lot of data and computing time is needed to train them, they may be prone to overfitting and it is hard to explain their results.
