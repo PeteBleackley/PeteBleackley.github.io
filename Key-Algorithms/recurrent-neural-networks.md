@@ -11,7 +11,7 @@ title: Key Algorithms - Recurrent Neural Networks
 In general, given the input $\vec{x}\_{t}$  at timestep $t$, and the previous output $y\_{t-1}$ the output $\vec{y}\_{t}$ is calculated as
 $$\vec{y}_{t} = g(\vec{x}_{t}, \vec{c}_{t}, \vec{y}_{t-1})$$
 
-where $\vec{c}\_{t}$ {% endraw %} is a *cell state* vector, which is updated by
+where $\vec{c}\_{t}$ is a *cell state* vector, which is updated by
 
 $$\vec{c}_{t} = f(\vec{x}_{t}, \vec{c}_{t-1}, \vec{y}_{t-1})$$
 
