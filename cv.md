@@ -9,6 +9,7 @@ title: Dr Peter Bleackley's Curriculum Vitae
 
 #### Consultant Data Scientist
 **Playful Technology Limited** March 2015 - July 2024
+
 Director of a data science consultancy undertaking research and development projects in data science and related technologies.
 
 ##### Clients

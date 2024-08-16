@@ -8,21 +8,16 @@ title: Key Algorithms - Recurrent Neural Networks
 
 *Recurrent Neural Networks* (RNN) are to [neural networks]({% link Key-Algorithms/multi-layer-perceptron.md %}) what [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %}) are to [Bayesian Models]({% link Key-Algorithms/bayes-theorem.md %}). That is, they are a form of the model that is designed to analyse sequences which evolve over time. While 1-dimensional [Convolutional Networks]({% link Key-Algorithms/convolutional-networks.md %}) can be used to analyse sequences, they are sensitive mainly to short range relationships between samples, whereas recurrent networks aim to capture longer range relationships.
 
-In general, given the input {% raw %} $\vec{x}_{t}$ {% endraw %} 
+In general, given the input $\vec{x}\_{t}$  at timestep $t$, and the previous output $y\_{t-1}$ the output $\vec{y}\_{t}$ is calculated as
+$$\vec{y}_{t} = g(\vec{x}_{t}, \vec{c}_{t}, \vec{y}_{t-1})$$
 
-at timestep $t$, and the previous output 
-{% raw %} $y_{t-1}$ {% endraw %}
+where $\vec{c}\_{t}$ {% endraw %} is a *cell state* vector, which is updated by
 
-the output {% raw %} $\vec{y}_{t}$ {% endraw %} is calculated as
-{% raw %}$$\vec{y}_{t} = g(\vec{x}_{t}, \vec{c}_{t}, \vec{y}_{t-1})$${% endraw %}
-
-where  {% raw %} $\vec{c}_{t}$ {% endraw %} is a *cell state* vector, which is updated by
-
-{% raw %} $$\vec{c}_{t} = f(\vec{x}_{t}, \vec{c}_{t-1}, \vec{y}_{t-1})$$ {% endraw %}
+$$\vec{c}_{t} = f(\vec{x}_{t}, \vec{c}_{t-1}, \vec{y}_{t-1})$$
 
 $f$ and $g$ are learnable functions. The simplest version is the *Ellman RNN*
 
-{% raw %} $$\vec{y}_{t} = \tanh(\mathbf{W}_{i} \cdot \vec{x}_{t} + \mathbf{W}_{h} \cdot \vec{y}_{t-1} +\vec{b} )$$ {% endraw %}
+$$\vec{y}_{t} = \tanh(\mathbf{W}_{i} \cdot \vec{x}_{t} + \mathbf{W}_{h} \cdot \vec{y}_{t-1} +\vec{b} )$$
 
 where in general $\mathbf{W}$ and $\vec{b}$ are weight matrices and bias terms respectively. Elsewhere you will see these equations written with two different bias terms, but since they are additive, it is mathematically equivalent (and simpler) to express them as one.
 
