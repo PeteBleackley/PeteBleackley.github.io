@@ -88,7 +88,7 @@ Developed content and behaviour based recommendation for a social learning /busi
 Investigated specialist document analysis technology.
 
 #### Chief Data Analyst
-**MulTplx Limited** September 2015 - June 2013
+**MulTplx Limited** September 2011 - June 2013
 
 Developed Python software that infers customer behaviour from interactions with display devices in mobile phone shops, and visualisations (HTML 5 and Javascript) and analyses of the data gathered. Clients included Samsung and EE.
 
