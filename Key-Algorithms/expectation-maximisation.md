@@ -34,7 +34,7 @@ We can the use these probabilites in the maximisation step to update the model p
 
 $$\vec{\mu}_{z} = \frac{\sum_{i} \vec{x}_{i} P(z \mid \vec{x}_{i})}{\sum_{i} P(z \mid \vec{x}_{i})}$$
 
-$$\mathbf{\Sigma}_{z} = \frac{\sum_{i} (\vec{x}_{i} - \vec{\mu}_z) \otimes (\vec{x}_{i} - \vec{\mu}_{z}) P(z \mid \vec{x}_{i})}{\sum{i} P(z \mid \vec{x}_{i})}$$
+$$\mathbf{\Sigma}_{z} = \frac{\sum_{i} (\vec{x}_{i} - \vec{\mu}_z) \otimes (\vec{x}_{i} - \vec{\mu}_{z}) P(z \mid \vec{x}_{i})}{\sum_{i} P(z \mid \vec{x}_{i})}$$
 
 $$P(z) = \frac{\sum_{i} P(z \mid \vec{x}_{i})}{N}$$ where $N$ is the number of datapoints.
 
