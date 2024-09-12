@@ -24,7 +24,7 @@ These assumptions can be relaxed by a *Gaussian Mixture Models*. This assumes th
 
 $$P(\vec{x} \mid z) = \frac{e^{-(\vec{x}-\vec{\mu}_{z}) \cdot \mathbf{\Sigma}^{-1}_{z} \cdot (\vec{x}-\vec{\mu}_{z})}}{\sqrt{(2 \pi)^{k} |\mathbf{\Sigma}_{z}|}}$$
 
-where $\vec{\mu}_{z}$ and $\mathbf{\Sigma}_{z}$ are the mean and covariance of distribution $z$ respectively. The prior probability of the clusters is $P(z)$
+where $\vec{\mu}\_{z}$ and $\mathbf{\Sigma}\_{z}$ are the mean and covariance of distribution $z$ respectively. The prior probability of the clusters is $P(z)$
 
 In the expectation step, we calculate cluster membership probabilites according to [Bayes' theorem]({% link Key-Algorithms/bayes-theorem.md %})
 
