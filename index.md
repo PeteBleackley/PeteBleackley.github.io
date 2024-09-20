@@ -30,6 +30,7 @@ My [Data Science Notebooks]({% link Data-Science-Notebooks/index.md %}) are some
 * [GitHub](https://github.com/PeteBleackley)
 * [Kaggle](https://www.kaggle.com/petebleackley)
 * [HuggingFace](https://huggingface.co/PeteBleackley)
+* [Mastodon](https://wandering.shop/@PeteBleackley){: rel="me"}
 
 ## Personal
 
