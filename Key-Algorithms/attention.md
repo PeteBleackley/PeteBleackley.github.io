@@ -32,7 +32,7 @@ The scaling is done to prevent the softmax function from saturating and selectin
 
 Other scoring functions include *Additive Attention*
 $$S_{ij} = \vec{v} \cdot \tanh( \mathbf{W}_{1} \cdot Q_{i} + \mathbf{W}_{2} K_{j})$$
-where $\vec{v}$, $\mathbf{W}\_{1}$ and $W\_{2}$ are learnable parameters, and *General Attention*
+where $\vec{v}$, $\mathbf{W}\_{1}$ and $\mathbf{W\}_{2}$ are learnable parameters, and *General Attention*
 $$\mathbf{S} = \mathbf{Q} \cdot \mathbf{W}_{a} \mathbf{K}^{T}$$ in which the scaling factor used in scaled dot product attention is replaced by a learnable $d \times d$ weight matrix $\mathbf{W}_{a}$$.
 
 For causal language models, where the task is to predict the next word in a sequence, the contextual word vector for each word should depend only on itself and preceding words. We then have the constraint that $A_{ij} = 0$ when $j>i$.
