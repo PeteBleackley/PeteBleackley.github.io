@@ -26,7 +26,7 @@ If we wish to use a metric that is independent of the scale of the data, we can 
 
 $$\mathrm{MAPE} = \frac{1}{N}\sum_{i} \left| \frac{y_{i} - f_{i}}{y_{i}} \right|$$
 
-While this is intuitively easy to understand, it has two disadvangtages. One is that it gives lower errors when the predicted valuea are too high than when they are two low, and the other is that it can diverge if any of the values of $y_{i}$ are close to zero. There are a number of approaches to mitigating these disadvantages. The *weighted mean absolute percetage error*
+While this is intuitively easy to understand, it has two disadvantages. One is that it gives lower errors when the predicted values are too high than when they are two low, and the other is that it can diverge if any of the values of $y_{i}$ are close to zero. There are a number of approaches to mitigating these disadvantages. The *weighted mean absolute percentage error*
 
 $$\mathrm{wMAPE} = \frac{\sum_{i}|y_{i} - f_{i}|}{\sum_{i}|y_{i}|}$$ 
 is robust against divergence, because it scales the errors by the mean absolute value of the true values, rather than the individual true values.

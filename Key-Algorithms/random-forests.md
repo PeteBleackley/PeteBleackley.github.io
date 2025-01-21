@@ -5,7 +5,7 @@ title: Key Algorithms - Random Forests
 
 # Random Forests
 
-We have mentioned clasification problems in a number of previous articles, and shown how they can be approached with [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}), [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %}) and by extension, neural networks. This week we'll examine a different method, based on *Decision Trees*.
+We have mentioned classification problems in a number of previous articles, and shown how they can be approached with [Bayes' Theorem]({% link Key-Algorithms/bayes-theorem.md %}), [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %}) and by extension, neural networks. In this article we'll examine a different method, based on *Decision Trees*.
 
 A decision tree can be thought of a set of nested if/else statements. It can be fit by the following procedure.
 
@@ -17,7 +17,7 @@ However, this is prone to *overfitting*, whereby the model fits every detail of 
 
 *Random Forests* is an algorithm that addresses this problem. As the word forest implies, it fits a large number (typically 100) of decision trees to the training data. Each, however, is trained only on a subset of the training data and with a subset of the variables. These subsets are chosen randomly for each tree in the forest.
 
-While each individual tree in the forest will tend to overfit, the fact that they were all fit against different subsets of the data and variables will mean that the errors they make on new data will not be correlated. Therefore a majority vote of the trees provides a much more robust classifier than any individual tree would. It is also possible to take account of uncertainty in the classification by reporting the number of individual trees that voted for each class - in Bayesian terms, this coresponds to $P(H \mid O)$. Algorithms that combine the results of multiple classifiers in this way are known as *ensemble methods*.
+While each individual tree in the forest will tend to overfit, the fact that they were all fit against different subsets of the data and variables will mean that the errors they make on new data will not be correlated. Therefore a majority vote of the trees provides a much more robust classifier than any individual tree would. It is also possible to take account of uncertainty in the classification by reporting the number of individual trees that voted for each class - in Bayesian terms, this corresponds to $P(H \mid O)$. Algorithms that combine the results of multiple classifiers in this way are known as *ensemble methods*.
 
 If the target variable is continuous, Random Forests can also be used for regression. In this case, the fitting of the decision trees terminates when the variance of the samples in each leaf node fall below a certain threshold. The prediction is then the mean of the predictions from the individual trees.
 
