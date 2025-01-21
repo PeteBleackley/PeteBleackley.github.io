@@ -54,10 +54,10 @@ $$\mathcal{L}(y_{t},y_{p}) = y_{t} \ln(y_{p}) + (1 - y_{t}) \ln(1 - y_{p})$$
 for which the derivative is
 $$\frac{d \mathcal{L}}{d y_{p}} = \frac{y_{t}}{y_{p}} - \frac{1-y_{t}}{1-y_{p}}$$
 
-Where there are more than two classes, we use the *Categorical Cross Entropy Loss*. For this, $\\vec{y}_{p}$ represents a probability distribution over classes $i$ such that
+Where there are more than two classes, we use the *Categorical Cross Entropy Loss*. For this, $\vec{y}\_{p}$ represents a probability distribution over classes $i$ such that
 $$y_{pi} = P(i)$$
-$\\vec{y}_{t}$ is a one hot encoded representation of the correct class $j$, such that
-$$y_{ti} = \delta_{ij}$$ where $\delta_{ij}$ is the Kroneker delta function
+$\\vec{y}\_{t}$ is a one hot encoded representation of the correct class $j$, such that
+$$y_{ti} = \delta_{ij}$$ where $\delta\_{ij}$ is the Kroneker delta function
 
 We then have
 $$\mathcal{L}(y_{t},y_{p}) = -\ln(\vec{y}_{t} \cdot \vec{y}_{p}) \\
