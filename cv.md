@@ -7,6 +7,11 @@ title: Dr Peter Bleackley's Curriculum Vitae
 
 ### Professional Experience
 
+#### Machine Learning Engineer
+**Costplan.ai** January 2025 - present
+
+Building machine learning and RAG components (using LangGraph) for a system to assist quantity surveyors in creating cost plans for building projects.
+
 #### Consultant Data Scientist
 **Playful Technology Limited** March 2015 - July 2024
 

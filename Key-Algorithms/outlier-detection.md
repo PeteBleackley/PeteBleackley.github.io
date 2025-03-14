@@ -25,7 +25,7 @@ $$\mathrm{LOF} = \frac{\sum_{k} \frac{D_{i}}{D_{k}}}{N}$$
 
 Samples whose Local Outlier Factor is below a given threshold (*ie* those whose local density is lower than that of their neighbours) can be identified as outliers.
 
-If we can assume that the data are drawn from a multivariate Gaussian distribution, we can use an *Eliptic Envelope* method. For a sample of size $N$ with $d$ dimensions, we chose a sample size $h$ such that 
+If we can assume that the data are drawn from a multivariate Gaussian distribution, we can use an *Elliptic Envelope* method. For a sample of size $N$ with $d$ dimensions, we chose a sample size $h$ such that 
 $$\frac{\N+d+1}{2} < h < N$$
 We then select a large number of subsamples of size $h$ from the dataset, and calculate the mean and covariance of each. The one where the covariance has the smallest determinant is the one least likely to contain outliers. Datapoints with a large Mahalanobis distance from the mean of this sample are therefore likely to be outliers.
 
