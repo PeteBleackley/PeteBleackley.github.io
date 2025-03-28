@@ -13,7 +13,7 @@ Unfortunately, for many distributions we may be interested in (including the ubi
 
 The method we use is called *Markov Chain Monte Carlo* because it uses random samples from Markov chains to explore the parameter space of the distribution. There are a number of variations of this, so for the sake of illustration, we will select a particular variant, the *Metropolis-Hastings algorithm*, as the basis of further discussion.
 
-We start with a Markov chain $P(H^{\prime} \mod H)$ that, given a sample hypothesis $H$ generates a nearby hypothesis $H^{\prime}$. At timestep $t=0$, we generate a set of samples $H_{i,0}$ from the prior distribution. Then at each timestep $t$, we generate a set of alternative hypotheses $H^{\prime}\_{i,t}$ from the Markov chain given $H\_{i,t}$. For each pair of hypotheses, we then calculate an acceptance probability
+We start with a Markov chain $P(H^{\prime} \mid H)$ that, given a sample hypothesis $H$ generates a nearby hypothesis $H^{\prime}$. At timestep $t=0$, we generate a set of samples $H_{i,0}$ from the prior distribution. Then at each timestep $t$, we generate a set of alternative hypotheses $H^{\prime}\_{i,t}$ from the Markov chain given $H\_{i,t}$. For each pair of hypotheses, we then calculate an acceptance probability
 
 $$ A(H^{\prime}_{i,t},H_{i,t}) = \min \left( 1, \frac{P(O \mid H^{\prime}_{i,t}) P(H^{\prime}_{i,t}) P(H_{i,t} \mid H^{\prime}_{i,t})}{P(O \mid H_{i,t}) P(H_{i,t}) P(H^{\prime}_{i,t}) \mid H_{i,t}} \right) $$
 
