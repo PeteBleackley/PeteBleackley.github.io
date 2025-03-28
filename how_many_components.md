@@ -5,7 +5,7 @@ title: How many components?
 # How Many Components
 
 
-A common problem in data science is *the curse of dimensionality*. Essentially, the more different variables a dataset encompasses, the more mathematically intractible it is to make measurements based on them all. The usual method for dealing with this problem is [Principal Component Analysis]({% link Key-Algorithms/data-reduction.md %}), which seeks to reduct the data to a lower number of dimension while retaining as much information as possible. The most common method of doing this is as follows.
+A common problem in data science is *the curse of dimensionality*. Essentially, the more different variables a dataset encompasses, the more mathematically intractable it is to make measurements based on them all. The usual method for dealing with this problem is [Principal Component Analysis]({% link Key-Algorithms/data-reduction.md %}), which seeks to reduce the data to a lower number of dimension while retaining as much information as possible. The most common method of doing this is as follows.
 
 1. Obtain either the covariance matrix of the variables of a similarity matrix of the observations, using a metric such as cosine similarity
 2. Calculate the eigenvalues and eigenvectors of this matrix
@@ -17,7 +17,7 @@ This however, raises the question of how to select an appropriate value of N. Si
     import numpy.linalg
     
     def reduce_data(X,metric=None):
-       """Reduces X to the number of dimensions that retains the maximum amount of infomation for the minimum number of components
+       """Reduces X to the number of dimensions that retains the maximum amount of information for the minimum number of components
        Parameters
        ----------
        X : numpy.ndarray
