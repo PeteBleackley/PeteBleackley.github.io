@@ -6,7 +6,7 @@ title: Key Algorithms - Vector Search Trees
 
 # Vector Search Trees
 
-There are many applications where we need to search a dataset for the nearest neghbours of a given point. For a large dataset, comparing the data point to the entire dataset will be too slow, especially if we need to do it frequently. If we store the dataset to be searched in a tree structure, we can improve the efficiency of queries from $\mathcal{O} (N)$ to $\mathcal{O} (\log N)$.
+There are many applications where we need to search a dataset for the nearest neighbours of a given point. For a large dataset, comparing the data point to the entire dataset will be too slow, especially if we need to do it frequently. If we store the dataset to be searched in a tree structure, we can improve the efficiency of queries from $\mathcal{O} (N)$ to $\mathcal{O} (\log N)$.
 
 A simple method to construct the search tree is *KD Trees*. This method iterates over the dimension of the dataset, partitioning it into hyperrectanular blocks. Each of these blocks is partitioned at the median of the datapoints contained in it along the dimension under consideration. Using the median ensures that the number of points in each partition will be balanced. This allows for rapid construction of the search tree, and and rapid searching if the dimensionality of the data is low, but its performance degrades when the number of dimensions in the dataset is large. The documentation for the [SciPy implementation of KD Tree](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html#scipy.spatial.KDTree) notes that *20 is already too large*. Adding new data to the tree after initial construction also runs a high risk of the tree becoming unbalanced.
 
