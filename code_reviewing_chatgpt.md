@@ -5,7 +5,7 @@ title: Code Reviewing ChatGPT
 {% include maths.html %}
 
 # Code Reviewing ChatGPT 
-Since the introduction of ChatGPT, there has been a lot of hype about the abilities of Large Language Models. The buzzword of the moment is *vibe coding*, and there was a lot of schadenfreud on the web when a man who tried to build a SAAS empire with AI-generated code found that it all fell apart after two weeks. However, **we want facts!** I decided to set ChatGPT the task of coding a classical NLP problem that I understood, and see how well it did. In previous projects, I've used the [Viterbi algorithm]({% link Key-Algorithms/viterbi-algorithm.md }) to perform Word Sense Disambiguation, so I gave it the following prompt
+Since the introduction of ChatGPT, there has been a lot of hype about the abilities of Large Language Models. The buzzword of the moment is *vibe coding*, and there was a lot of schadenfreud on the web when a man who tried to build a SAAS empire with AI-generated code found that it all fell apart after two weeks. However, **we want facts!** I decided to set ChatGPT the task of coding a classical NLP problem that I understood, and see how well it did. In previous projects, I've used the [Viterbi algorithm]({% link Key-Algorithms/viterbi-algorithm.md %}) to perform Word Sense Disambiguation, so I gave it the following prompt
 
 > Write a Python class that uses the Viterbi algorithm to perform word sense disambiguation. It's `__call__` method should take a string representing a sentence and output the 
 > maximum likelihood sequence of WordNet ids corresponding to that sentence. Take into account multi-word expressions, proper nouns, function words and out-of-vocabulary words. The 
