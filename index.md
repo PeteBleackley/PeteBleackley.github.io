@@ -24,6 +24,7 @@ My [Data Science Notebooks]({% link Data-Science-Notebooks/index.md %}) are some
 
 ## Other
 [How Many Components]({% link how_many_components.md %}) an idea for how to chose the best number of components to use in [Principal Component Analysis]({% link  Key-Algorithms/data-reduction.md %}).
+
 [Code Reviewing ChatGPT]({% link code_reviewing_chatgpt.md %}) How well can ChatGPT write a Word Sense Disambiguation algorithm?
 
 ## External Links
