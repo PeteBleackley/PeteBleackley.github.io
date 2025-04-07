@@ -135,7 +135,7 @@ class ViterbiWSD:
         return [s.name() for s in best_path]
 ```
 
-So how did it do? Looking at the `import` statements at the beginning of the file, we notice `from nltk.utils import ngrams`, but this isn't used anywhere in the code. In the `train` method, we find function words (*ie* tokens that do not have a corresponding WordNet id) are simply discarded. The calculation of the emission and transition probabilities is mostly correct, but assumes the label of each chunk is a `list`. Since it is actually a `Lemma` object, no training will actually take place. There is also a variable called `unigram_counts` which is calculated during training but never used. 
+So how did it do? Looking at the `import` statements at the beginning of the file, we notice `from nltk.utils import ngrams`, but this isn't used anywhere in the code. In the `train` method, we find function words (*ie* tokens that do not have a corresponding WordNet id) are simply discarded. The calculation of the emission and transition probabilities is mostly correct, but assumes the label of each chunk is a `list`. Since it is actually a `Lemma` object, no training will actually take place. The WordNet id we actually want is not the lemma, but the synset, which would be accessed by calling `word.label().synset()`. There is also a variable called `unigram_counts` which is calculated during training but never used. 
 
 Let's assume we fix these errors and look at the rest of the code.
 
