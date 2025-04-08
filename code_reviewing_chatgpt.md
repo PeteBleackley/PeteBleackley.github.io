@@ -161,3 +161,5 @@ So, ChatGPT has given us a very inefficient and inaccurate implementation of Wor
 3. You don't want to start from an empty page.
 
 You're not likely to save much time overall, since although you can get a first draft of your code almost instantly, the extra time you spend debugging it will likely consume the time you saved that way - especially since not having written the code yourself, you won't understand it as well as if you did. Unfortunately, vibe coding appeals particularly to people who want to do things quickly and cheaply, and aren't necessarily technical experts themselves.
+
+by [Dr Peter J Bleackley]({% link index.md %})
