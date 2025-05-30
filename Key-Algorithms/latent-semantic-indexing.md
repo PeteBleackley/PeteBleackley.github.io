@@ -11,7 +11,7 @@ TF-IDF, as previously discussed, makes use of the fact that words that occur in 
 
 $$\mathbf{TFIDF} \approx \mathbf{U} \cdot \mathbf{\Sigma} \cdot \mathbf{V}^{T}$$
 
-Tyypically around 200 components are retained. The left singular vectors $\mathbf{U}$ then represent documents in the lower-dimensional space, while the right singular vectors $\mathbf{V}$ represent words in the same space. Words that tend to appear in the same documents will tend to have similar vector representations, and according to the *distributional hypothesis*, this gives an implicit representation of their meaning. This implicit representation of meaning gives the technique the name *Latent Semantic Analysis*.
+Typically around 200 components are retained. The left singular vectors $\mathbf{U}$ then represent documents in the lower-dimensional space, while the right singular vectors $\mathbf{V}$ represent words in the same space. Words that tend to appear in the same documents will tend to have similar vector representations, and according to the *distributional hypothesis*, this gives an implicit representation of their meaning. This implicit representation of meaning gives the technique the name *Latent Semantic Analysis*.
 
 Given a query $Q = w_{1}w_{2}\ldots w_{n}$, we can calculate a query vector
 $$\vec{q} = \sum_{i}\mathbf{V}_{w_{i}}$$
