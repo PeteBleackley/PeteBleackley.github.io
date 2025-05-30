@@ -5,7 +5,7 @@ title: Key Algorithms - Transformers
 
 # Transformers
 
-In the article on the [Attention Mechanism]({% link Key-Algorithms/attention.md %}) mentioned the *Transformer Architecture*, which is the basis of Large Languge Models. In this article, we examine transformers in detail.
+In the article on the [Attention Mechanism]({% link Key-Algorithms/attention.md %}) mentioned the *Transformer Architecture*, which is the basis of Large Language Models. In this article, we examine transformers in detail.
 
 A transformer model, like most NLP models, begins with a *tokenizer*, which converts a string input into a sequence of integers, each representing a particular word, subword or symbol stored in the model's vocabulary. If the sequence is shorter than the model's context window, it may be padded to the required length.
 
@@ -23,7 +23,7 @@ $$\vec{P}_{i} = \mathbf{R} \vec{P}_{i-1}$$
 
 This allows both absolute and relative positions to be taken into account.
 
-After this, the vectors are fed to a series of *Transformer Blocks*. The first elememnt of each transformer block is an attention layer. The output of the attention layer is then added to its input, so as to avoid vanishing gradients. This then undergoes *Layer Normalisation*
+After this, the vectors are fed to a series of *Transformer Blocks*. The first element of each transformer block is an attention layer. The output of the attention layer is then added to its input, so as to avoid vanishing gradients. This then undergoes *Layer Normalisation*
 
 $$\mathbf{X}^{\prime} =  \gamma \frac{\mathbf{X}-\mu}{\sigma} + \beta $$
 Where 
@@ -40,7 +40,7 @@ Several transformer blocks are stacked together, each processing the output of t
 
 There are three types of transformer models. *Encoder* models use bidirectional attention, where the full context window is taken into account for every token. These are typically trained on a *masked word prediction* task, where some words of the input are masked and the model is trained to predict them. [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta) is an example of an encoder model.
 
-*Decoder* models use *masked attention*, where each token's context depends only on itself and previous tokens. These are used for *causal language modelling*, and are typically trained on *next word prediction*. *Generative* or *autoregressive* models synthesize text by iteratively adding each predicted word back into their inputs. Several of the best known LLMs currently, sucn as the GPT models, [Mistral](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) and [LLaMa](https://huggingface.co/meta-llama/Meta-Llama-3-8B) are decoder models.
+*Decoder* models use *masked attention*, where each token's context depends only on itself and previous tokens. These are used for *causal language modelling*, and are typically trained on *next word prediction*. *Generative* or *autoregressive* models synthesize text by iteratively adding each predicted word back into their inputs. Several of the best known LLMs currently, such as the GPT models, [Mistral](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) and [LLaMa](https://huggingface.co/meta-llama/Meta-Llama-3-8B) are decoder models.
 
 *Encoder-decoder* models are used for sequence-to-sequence modelling tasks such as machine translation. They consist of an encoder model and a decoder model coupled by *Cross Attention*, whereby the output of each transformer block in the encoder model is prepended to the input of the corresponding transformer block in the decoder model. [T5](https://huggingface.co/google/t5-v1_1-xxl) is an example of such a model.
 

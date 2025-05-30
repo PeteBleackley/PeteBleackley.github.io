@@ -10,7 +10,7 @@ As mentioned in the article about [Multi Layer Perceptron]({% link Key-Algorithm
 
 Clearly, very few organisations have the computing resources to train such a model from scratch. So, if we need a large model for a specific task of our own, what do we do? The usual approach is known as *Transfer Learning*, and aims to transfer information previously learned by a model (such as a statistical model of a language) to a new task. This is achieved by the following procedure.
 
-1. Start with a pre-trained *Base Model*. In naturla language processing, this has often been trained on a task such as masked word prediction or next word prediction.
+1. Start with a pre-trained *Base Model*. In natural language processing, this has often been trained on a task such as masked word prediction or next word prediction.
 2. Remove the output layer, or *head*.
 3. Replace it with an output layer of your own.
 4. *Fine tune* the model, by training it with a dataset specific to your task.

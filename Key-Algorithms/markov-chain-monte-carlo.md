@@ -9,7 +9,7 @@ In our previous discussions of [Bayes' theorem]({% link Key-Algorithms/bayes-the
 
 $$P(H \mid O) = \frac{P(H) P(O \mid H)}{\int P(H) P(O \mid H) dH}$$
 
-Unfortunately, for many distributions we may be interested in (including the ubiquitous normal distribution), the integral involved is intractible. The problem only gets worse in complex models, especially where we distributions may have multiple parameters. Some distribuitions have a *conjugate prior*, where the posterior distribution is of the same form as the prior distribution and may be obtained by an appropriate adjustment of parameters, but this is not always the case, and we need a numerical method that is more generally applicable.
+Unfortunately, for many distributions we may be interested in (including the ubiquitous normal distribution), the integral involved is intractable. The problem only gets worse in complex models, especially where we distributions may have multiple parameters. Some distributions have a *conjugate prior*, where the posterior distribution is of the same form as the prior distribution and may be obtained by an appropriate adjustment of parameters, but this is not always the case, and we need a numerical method that is more generally applicable.
 
 The method we use is called *Markov Chain Monte Carlo* because it uses random samples from Markov chains to explore the parameter space of the distribution. There are a number of variations of this, so for the sake of illustration, we will select a particular variant, the *Metropolis-Hastings algorithm*, as the basis of further discussion.
 

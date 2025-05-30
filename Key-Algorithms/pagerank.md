@@ -13,15 +13,15 @@ The *PageRank* algorithm is based on three assumptions
 2. Links originating from more valuable pages confer more value on the pages they link to.
 3. Pages that link indiscriminately to many other pages confer less value on those pages than those which link more selectively.
 
-Based on these assumptions, it then models a *random walk* taken through the Internet by a user clicking web links at random. If the user is viewing a web page $i$ that has $N_{i}$ outgoing links, they have a probability $d$ (known as the *damping factor*, and typically chosen as 0.85) of clicking a link to another page. This link is assumed to be chosen with uniform probability from the page's outgoing links. The PageRank $P_{i}$ for the page is a measure of how likely the page is to be found by this method.
+Based on these assumptions, it then models a *random walk* taken through the Internet by a user clicking web links at random. If the user is viewing a web page $i$ that has $N\_{i}$ outgoing links, they have a probability $d$ (known as the *damping factor*, and typically chosen as 0.85) of clicking a link to another page. This link is assumed to be chosen with uniform probability from the page's outgoing links. The PageRank $P\_{i}$ for the page is a measure of how likely the page is to be found by this method.
 
-If $L_{i}$ is the set of pages that link to $i$, the PageRank satisfies the equation
+If $L\_{i}$ is the set of pages that link to $i$, the PageRank satisfies the equation
 
 $$P_{i} = d \sum_{j \in L_{i}} \frac{P_{j}}{N_{j}} + (1-d)$$
 
 This is solved iteratively.
 
-If we define a *connection matrix* $\mathbf{C}$ such that $C_{ij}$ is $1/N_{j}$ if $j$ connects to $i$ and 0 otherwise, we can express this as a matrix equation
+If we define a *connection matrix* $\mathbf{C}$ such that $C\_{ij}$ is $1/N\_{j}$ if $j$ connects to $i$ and 0 otherwise, we can express this as a matrix equation
 
 $$\vec{P} = d \mathbf{C} \cdot \vec{P} + (1-d)$$
 

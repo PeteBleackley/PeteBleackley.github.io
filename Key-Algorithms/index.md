@@ -4,7 +4,7 @@ title: Key Algorithms
 
 # Key Algorithms
 
-These articles represent what I think of as the things every data scientist should know. Each gives a short summary of an algorithm or group of related algorithms. While the presentation is consise, I do go into enough mathematical detail to properly understand the algorithm. Wherever possible I have discussed my own experience of using them, and I also highlight the connections 
+These articles represent what I think of as the things every data scientist should know. Each gives a short summary of an algorithm or group of related algorithms. While the presentation is concise, I do go into enough mathematical detail to properly understand the algorithm. Wherever possible I have discussed my own experience of using them, and I also highlight the connections 
 
 They were originally written as a series of blog posts between November 2023 and July 2024, but in porting them to this site I have decided to organise them thematically.
 

@@ -6,7 +6,7 @@ title: Key Algorithms - Data Reduction
 
 # Data Reduction
 
-Datasets that involve a large number of features suffer from *The Curse of Dimensionality*, where, as the number of features increases, it becomes harder and harder to use them to define a meaningful [measure of distance]({% link Key-Algorithms/metrics.md %}) between the samples. It becomes necessary to map the data into a smaller number of dimensions. To do this, we need to find mathematical relatioships between the features that can be used to form a more economical representation of the data.
+Datasets that involve a large number of features suffer from *The Curse of Dimensionality*, where, as the number of features increases, it becomes harder and harder to use them to define a meaningful [measure of distance]({% link Key-Algorithms/metrics.md %}) between the samples. It becomes necessary to map the data into a smaller number of dimensions. To do this, we need to find mathematical relationships between the features that can be used to form a more economical representation of the data.
 
 The most common way of doing this is *Principal Component Analysis* (PCA), which captures linear relationships between features. This starts by calculating the covariance of the features
 
@@ -19,7 +19,7 @@ We may chose $m$ by examining a line chart of the eigenvalues in increasing orde
 
 A related technique, *Independent component analysis*, seeks to maximise the statistical independence between the projected components rather than the explained variance. This is often used in signal processing.
 
-This works well when the data is dense, and when the classes we want to find in the data are linearly seperable. When the data is sparse, we instead use a technique called *Singular Value Decomposition*. Given an $N \times M$ matrix $\mathbf{X}$, we decompose it into an $N \times m$ matrix $\mathbf{U}$, an $m \times m$ matrix $\mathbf{\Sigma}$ and an $M \times m$ matrix $\mathbf{V}$ such that
+This works well when the data is dense, and when the classes we want to find in the data are linearly separable. When the data is sparse, we instead use a technique called *Singular Value Decomposition*. Given an $N \times M$ matrix $\mathbf{X}$, we decompose it into an $N \times m$ matrix $\mathbf{U}$, an $m \times m$ matrix $\mathbf{\Sigma}$ and an $M \times m$ matrix $\mathbf{V}$ such that
 
 $$\mathbf{X} \approx \mathbf{U} \cdot \mathbf{\Sigma} \cdot \mathbf{V}^{T}$$
 
@@ -28,7 +28,7 @@ The matrix $\mathbf{\Sigma}$ is zero everywhere except along its leading diagona
 
 $\mathbf{U}$ and $\mathbf{V}$ are the left and right singular vectors, and represent the mapping of the datapoints and the features into the lower-dimensional space respectively.
 
-In the case where the classes are not linearly seperable, we need to capture non-linear relatiionships between the features. The simplest way doing this is *kernel PCA*. This relies on the fact that there is normally a way to project the data into a higher dimensional space so that it becomes linearly seperable. To illustate this, considera set of concentric circles in a plane. If we add the distance from the centre as a third dimension, the circles appear as seperate layers.
+In the case where the classes are not linearly separable, we need to capture non-linear relationships between the features. The simplest way doing this is *kernel PCA*. This relies on the fact that there is normally a way to project the data into a higher dimensional space so that it becomes linearly separable. To illustrate this, consider a set of concentric circles in a plane. If we add the distance from the centre as a third dimension, the circles appear as separate layers.
 
 But wait. Why are we projecting into a higher-dimensional space when we want to reduce the number of dimensions? Well, we don't actually do this. Instead, we define a *kernel function* $f(\vec{x},\vec{y})$, which corresponds to the distance between two points $\vec{x}$ and $\vec{y}$ in the higher-dimensional space. We then obtain the $N \times N$ matrix
 
@@ -36,7 +36,7 @@ $$\mathbf{F}_{i,j} = f(\vec{x_{i}},\vec{x_{j}})$$
 
 We then obtain the eigenvalues and eigenvectors of this matrix. The eigenvectors corresponding to the $m$ largest eigenvalues form an $N \times m$ matrix whose rows correspond to vectors we would obtain if we carried out PCA in the higher-dimensional space. Unfortunately, for a large dataset, this is more computationally intensive that standard PCA.
 
-There are a number of other techniques for using non-linear relationships in data reduction, collectively known as *manifold learning*, but this article would get a bit too long if we tried to cover them all. However, one that is of particular interest is *t-distributed Stochastic Neighbour Embedding* (t-SNE). This tries to map datapoints to a lower dimension so that the statistical distibution of distances between points in the lower dimension is similar to that in the higher dimension. It is sensitive to the local structure of the data, and so useful for exploratory visualisations.
+There are a number of other techniques for using non-linear relationships in data reduction, collectively known as *manifold learning*, but this article would get a bit too long if we tried to cover them all. However, one that is of particular interest is *t-distributed Stochastic Neighbour Embedding* (t-SNE). This tries to map datapoints to a lower dimension so that the statistical distribution of distances between points in the lower dimension is similar to that in the higher dimension. It is sensitive to the local structure of the data, and so useful for exploratory visualisations.
 
 I used several of these techniques in my work at [Pentland Brands]({% link Portfolio/pentland-brands.md %}). Implementations can be found in Scikit-Learn's [decomposition](https://scikit-learn.org/stable/modules/decomposition.html) and [manifold](https://scikit-learn.org/stable/modules/manifold.html %}) modules.
 

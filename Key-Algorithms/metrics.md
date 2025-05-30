@@ -24,7 +24,7 @@ $$\mathbf{\Sigma} = \frac{\sum_{i}(\vec{x_{i}} - \bar{\vec{x}}) \otimes (\vec{x_
 Sometimes we wish to compare data that is not readily described as vectors. Suppose that we wish to compare two users of a social network in terms of which links they have shared. We might consider the links shared by each user as a set of unique items. To compare these sets, we can use the *Tanimoto metric*
 $$T = \frac{|A \cap B|}{|A \cup B|}$$, that is the fraction of the links shared by either user that have been shared by both users. This has a range from 0 to 1 and *bigger is better*.
 
-If we wish to compare two short strings (as for example, in a spellchecking application), the ususal method is the *Leveshtein distance* . This is the number of insertions, deletions or substitutiions needed to transform one string into another. If we consider the strings $X$ and $Y$ as sequences of characters $x_{1}x_{2}\ldots x_{m}$ and $y_{1}y_{2}\ldots y_{n}$ respectively, we can define an $m \times n$ matrix $\mathbf{L}$ as 
+If we wish to compare two short strings (as for example, in a spellchecking application), the usual method is the *Leveshtein distance* . This is the number of insertions, deletions or substitutions needed to transform one string into another. If we consider the strings $X$ and $Y$ as sequences of characters $x_{1}x_{2}\ldots x_{m}$ and $y_{1}y_{2}\ldots y_{n}$ respectively, we can define an $m \times n$ matrix $\mathbf{L}$ as 
 $$L_{i,0} = i$$ for $i$ from 0 to m
 $$L_{0,j} = j$$ for $j$ from 0 to n
 $$L_{i,j} = \min \left(L_{i,j-1},L{i-1,j},L{i-1,j-1}+\left\{\begin{array}{c 1} 0 & \quad \mathrm{if } x_{i} = y_{j} \\

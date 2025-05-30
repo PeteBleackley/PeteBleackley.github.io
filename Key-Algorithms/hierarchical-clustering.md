@@ -37,7 +37,7 @@ One problem with Hierarchical Clustering is that, as described above, it does no
 
 In [Clustering Proteins in Breast Cancer Patients]({% link Data-Science-Notebooks/clustering-proteins.md %}) I used Hierarchical Clustering to identify groups of proteins whose activity was related in patients.
 
-Implementations of Heirarchical Clustering can be found in [Scipy](https://docs.scipy.org/doc/scipy/reference/cluster.hierarchy.html) and [Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
+Implementations of Hierarchical Clustering can be found in [Scipy](https://docs.scipy.org/doc/scipy/reference/cluster.hierarchy.html) and [Scikit-Learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
 
 by [Dr Peter J Bleackley]({% link index.md %})
 

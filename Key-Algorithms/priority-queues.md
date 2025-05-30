@@ -26,7 +26,7 @@ These properties can be efficiently maintained by the following operations.
 
 To add an item to the heap, we place it at the end, and then Sift Up until it reaches its proper place. When we remove the first item from the heap during iteration, we more the last item from the heap to the first position, and then Sift Down until it reaches its proper place.
 
-There are several implementations of priority queues in Python [heapq](https://docs.python.org/3/library/heapq.html) in the standard library, [heapdict](https://pypi.org/project/HeapDict/) which implements a dictionary interface and allows the priority of items to be altered, and [PriorityQueue](https://docs.python.org/3/library/queue.html#queue.PriorityQueue) in the standard Queue library, which is useful for sheduling data items to be processed by workers in a multithreaded application.
+There are several implementations of priority queues in Python [heapq](https://docs.python.org/3/library/heapq.html) in the standard library, [heapdict](https://pypi.org/project/HeapDict/) which implements a dictionary interface and allows the priority of items to be altered, and [PriorityQueue](https://docs.python.org/3/library/queue.html#queue.PriorityQueue) in the standard Queue library, which is useful for scheduling data items to be processed by workers in a multithreaded application.
 
 Prioritising tasks is an important part of many algorithms, so this is a useful tool to be aware of when designing an algorithm.
 

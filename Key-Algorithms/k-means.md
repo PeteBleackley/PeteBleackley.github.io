@@ -8,19 +8,19 @@ title: Key Algorithms - K-Means Clustering
 In the previous article, we discussed [Hierarchical Clustering]({% link Key-Algorithms/hierarchical-clustering.md %}). Another method commonly used method is the *K-Means* algorithm, which attempts to find $K$ clusters such that this variance within the clusters is minimised. It does this by the following method
 
 1. Given an appropriately scaled dataset, choose $K$ points in the range of the data
-2. Assign each point in the dataset to a cluster associated with the nearest of these points, accorting to the [euclidean distance]({% link Key-Algorithms/metrics.md %})
-3. Recalcuate the points as the means of the datapoints assigned to their clusters
+2. Assign each point in the dataset to a cluster associated with the nearest of these points, according to the [euclidean distance]({% link Key-Algorithms/metrics.md %})
+3. Recalculate the points as the means of the datapoints assigned to their clusters
 4. Repeat from step 2 until the assignments converge
 
-Several different methods may be used to assign the initial centroids. The *Random Partition* method initially assigns each datapoint to a random cluster and takes the means of those clusters as the starting points. This tends to produce initial centroids close to the centre of the dataset. *Fogy's method* choses $K$ datapoints randomly from the dataset as the initial centroids. This tends to give more widely spaced centroids. A variation of this, the *kmeans++* method, weights the probability of chosing each datapoint as a centroid by the minimum squared distance of that point from the centroids already chosen. This is the default in [Scikit-Learn's implementation of K-means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), since it is considered more robust. K-means cannot be guaranteed to converge to the optimal solution and is senitive to its initial conditions, it is common practice to rerun the clustering several times with several different sets of initial centroids, and chose the solution with the lowest variance.
+Several different methods may be used to assign the initial centroids. The *Random Partition* method initially assigns each datapoint to a random cluster and takes the means of those clusters as the starting points. This tends to produce initial centroids close to the centre of the dataset. *Fogy's method* chooses $K$ datapoints randomly from the dataset as the initial centroids. This tends to give more widely spaced centroids. A variation of this, the *kmeans++* method, weights the probability of choosing each datapoint as a centroid by the minimum squared distance of that point from the centroids already chosen. This is the default in [Scikit-Learn's implementation of K-means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), since it is considered more robust. K-means cannot be guaranteed to converge to the optimal solution and is sensitive to its initial conditions, it is common practice to rerun the clustering several times with several different sets of initial centroids, and chose the solution with the lowest variance.
 
-Another issue with K-means is how many clusters to chose. This may be done by visialising the data in advance, or with the *silhouette score*. This is a measure of how much closer a datapoint is to other datapoints in its own cluster than it is to datapoints in other clusters. For a datapoint $i$ which is a member of cluster $C_{k}$, which has $N_{k}$ datapoints assigned to it, we first calculate the mean distance of $i$ from the other members of $C_{k}$
+Another issue with K-means is how many clusters to chose. This may be done by visualising the data in advance, or with the *silhouette score*. This is a measure of how much closer a datapoint is to other datapoints in its own cluster than it is to datapoints in other clusters. For a datapoint $i$ which is a member of cluster $C_{k}$, which has $N_{k}$ datapoints assigned to it, we first calculate the mean distance of $i$ from the other members of $C_{k}$
 
 $$a_{i} = \frac{\sum_{j \in C_{k},j \neq i} d(i,j)}{N_{k}-1}$$
 
-where $d(i,j)$ is the distance betwen datapoints $i$ and $j$
+where $d(i,j)$ is the distance between datapoints $i$ and $j$
 
-We then find the mean distance betwen $i$ and the datapoints in the closest cluster to it other than the one to which it is assigned.
+We then find the mean distance between $i$ and the datapoints in the closest cluster to it other than the one to which it is assigned.
 
 $$b_{i} = \min_{l \neq k} \frac{\sum_{j \in C_{l}} d(i,j)}{N_{l}}$$
 
@@ -34,7 +34,7 @@ This has a range of -1 to 1, where a high value would indicate that a datapoint 
 3. Use the [Bayesian Information Criterion]({% link Key-Algorithms/information-theory.md %}) to determine whether this improves the model. Keep subdividing clusters until it does not.
 4. When no further subdivision are necessary, use the centroids of the clusters thus obtained as the starting point for a final round of K-means clustering on the full dataset.
 
-K-means clustering requires the clusters to be linearly seperable. If this is not the case, it is necessary to perform [Kernel PCA]({% link Key-Algorithms/data-reduction.md %}) to map the dataset into a space where they are.
+K-means clustering requires the clusters to be linearly separable. If this is not the case, it is necessary to perform [Kernel PCA]({% link Key-Algorithms/data-reduction.md %}) to map the dataset into a space where they are.
 
 by [Dr Peter J Bleackley]({% link index.md %})
 

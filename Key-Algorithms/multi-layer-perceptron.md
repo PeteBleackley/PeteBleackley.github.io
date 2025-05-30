@@ -7,7 +7,7 @@ title: Key Algorithms - Multi Layer Perceptron
 
 One of my aims for this series of articles is to cover the things every data scientist should know. Since neural networks are so ubiquitous in data science, they certainly fit this description.
 
-Neural networks in general learn a function that maps their inputs to the desired outputs. To make learning tractable, that function is built from a number of smaller units. This is meant to mimic the way that processing in the brain in is accomplished by signals being passed between neurons, but compared to the way real neurons work, it's a grossly over-simplfied model. There are many different architectures for combining smaller units to make the overall one, but the most basic is known as a *Multi Layer Perceptron* network.
+Neural networks in general learn a function that maps their inputs to the desired outputs. To make learning tractable, that function is built from a number of smaller units. This is meant to mimic the way that processing in the brain in is accomplished by signals being passed between neurons, but compared to the way real neurons work, it's a grossly over-simplified model. There are many different architectures for combining smaller units to make the overall one, but the most basic is known as a *Multi Layer Perceptron* network.
 
 This consists of an *Input Layer* $\vec{x}$, representing the observations we wish to classify,
 $N$ *Hidden Layers* $h_{i}$, where
