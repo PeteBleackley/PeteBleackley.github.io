@@ -31,9 +31,10 @@ A Latent Semantic Indexing model which was trained on the semantically enhanced 
 * [Scipy](https://www.scipy.org/)
 * [Scikit-Learn](https://scikit-learn.org/stable/)
 * [Pandas](https://pandas.pydata.org/)
+* [Gensim](https://radimrehurek.com/gensim/index.html)
+* [MongoDB](https://www.mongodb.com/)
 
 by [Dr Peter Bleackley]({% link index.md %})
 
 [Case Studies]({% link Portfolio/index.md %})
-* [Gensim](https://radimrehurek.com/gensim/index.html)
-* [MongoDB](https://www.mongodb.com/)
+
