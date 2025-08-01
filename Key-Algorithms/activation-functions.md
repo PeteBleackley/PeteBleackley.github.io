@@ -62,7 +62,7 @@ $$\frac{df}{dx} = \frac{1+\mathrm{erf}(x/\sqrt{2 \pi})}{2} +\frac{e^{-x^{2}/2}}{
 
 The swish function is given by 
 $$f(x) = x \sigma(x) = \frac{x}{1+e^{-x}}$$ and its derivative is
-$$\frac{df}{dx} = \sigma{x} + x \sigma(x)(1-\sigma(x))$$.
+$$\frac{df}{dx} = \sigma(x) + x \sigma(x)(1-\sigma(x))$$.
 
 The Mish function is given by 
 $$f(x) = x \tanh(\mathrm{softsum}(x)) \\

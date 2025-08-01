@@ -3,7 +3,7 @@ layout: default
 title: Case Studies
 ---
 
-#Case Studies
+# Case Studies
 
 The following pages contain case studies from selected projects during my contracting career. Each gives details of the client, their problem, the approach I took to solving them, and the technologies I used.
 

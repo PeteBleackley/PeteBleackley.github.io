@@ -27,8 +27,7 @@ eFinancialCareers
 : Investigating possible improvements to existing job matching system, and prototyping content-based recommendation system to match candidates to jobs.
 
 Arthur D Little
-: Developing Natural Language Processing technology for a medical diagnostics startup. Included
-work on separating sentences containing conjunctions into multiple sentences.
+: Developing Natural Language Processing technology for a medical diagnostics startup. Included work on separating sentences containing conjunctions into multiple sentences.
 
 Adecco
 : Named Entity Recognition, Named Entity Linking and document classification for matching CVs to
@@ -59,6 +58,7 @@ Cambridge Quantum Computing Limited
 
 Boehringer Ingelheim
 : Investigated text mining of healthcare forums for phamacovigilance data.
+
 [True 212]({% link Portfolio/true-212.md %})
 : Created a computational linguistics pipeline to enable semantic matching between blogs and external content to identify relevant links.
 
