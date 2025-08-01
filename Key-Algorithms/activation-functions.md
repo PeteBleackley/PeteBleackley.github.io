@@ -57,7 +57,7 @@ These functions are all monotonic - their gradients are always non-negative with
 
 The GELU activation function is defined as 
 $$f(x) = x \frac{1+\mathrm{erf}(x/\sqrt{2 \pi})}{2}$$
-where $$\mathrm{erf(x)} = \frac{2}{\sqrt{\pi}} \int_{-infty}^{x} e^{-x^{2}} dx$$. For this
+where $$\mathrm{erf(x)} = \frac{2}{\sqrt{\pi}} \int_{-\infty}^{x} e^{-x^{2}} dx$$. For this
 $$\frac{df}{dx} = \frac{1+\mathrm{erf}(x/\sqrt{2 \pi})}{2} +\frac{e^{-x^{2}/2}}{\sqrt{2 \pi}}$$
 
 The swish function is given by 
