@@ -17,6 +17,9 @@ Pentland Brands wanted to create an app to recommend swimming goggles to potenti
 
 A test framework was created which allowed the performance of various models to be compared. A number of data reduction techniques and classifier algorithms were applied to the data and their performance in predicting the test subjects' preferences were assessed. Unfortunately, it was discovered that there was no significant correlation between facial shapes and preferences, so Playful Technology Limited recommended that the project be discontinued.
 
+## The Outcome
+The client saved the cost of further wasted effort.
+
 ## Technology Used
 
 * [python-pcl](https://github.com/strawlab/python-pcl)

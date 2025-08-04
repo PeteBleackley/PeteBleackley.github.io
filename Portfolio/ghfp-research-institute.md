@@ -21,6 +21,10 @@ Geopandas was used to combine the [Natural Earth Countries Shapefile](https://ww
 * Hovering the mouse over a country displays the Better Place Index for that country, and its best and worst contributing factors
 * Countries may be selected by ranges of the Better Place Index, or by the best or worst contributing factor.
 
+## The Outcome
+
+The interactive map was published.
+
 ## Technology Used
 
 * [Geopandas](https://geopandas.org/)

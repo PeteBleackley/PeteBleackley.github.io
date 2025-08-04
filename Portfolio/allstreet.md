@@ -17,6 +17,10 @@ All Street Research wanted to be able to find the most relevant paragraphs of co
 
 A set of key words and phrases was obtained for each of the topics of interest. Then, from a corpus of corporate documents, words which correlated with the key words on a paragraph level were identified. These correlations were used to derive a scoring function for each theme that was used to identify the most relevant paragraphs.
 
+## The Outcome
+
+The most relevant paragraphs could be easily identified by researchers.
+
 ## Technology Used
 
 * [NLTK](https://www.nltk.org/)

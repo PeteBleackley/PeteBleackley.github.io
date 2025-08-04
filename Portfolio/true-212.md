@@ -25,6 +25,10 @@ A Word Sense Disambiguation component that used the [Viterbi algorithm]({% link 
 
 A Latent Semantic Indexing model which was trained on the semantically enhanced documents to perform rich matching.
 
+## The Outcome
+
+The pipeline was used in further work on semantically rich matching.
+
 ## Technology Used
 
 * [Numpy](https://numpy.org/)

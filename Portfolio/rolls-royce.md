@@ -19,6 +19,10 @@ A testbed was developed to compare the performance of various topic modelling al
 
 During this project I also sat on a tender panel to advise on technical aspects of the bid and gave advice on a proposed collaborative project.
 
+## The Outcome
+
+Rolls Royce was able to use the library in future projects.
+
 ## Technology Used
 
 * [Gensim](https://radimrehurek.com/gensim/index.html)

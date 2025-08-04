@@ -16,6 +16,10 @@ Social Finance wished to create an analytics system to help understand the case 
 
 The XML files were parsed and transformed into a set of relational tables. Heuristics were devised to correct missing and inconsistent values. Fields that carried a high risk of deanonymisation were removed.
 
+## The Outcome
+
+Social Finance was able to use the software in further work on social services data.
+
 ## Technology Used
 
 * [Pandas](https://pandas.pydata.org/)
