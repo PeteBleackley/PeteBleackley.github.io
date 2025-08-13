@@ -16,7 +16,7 @@ We also need to quantify how much information is contained in the relationship b
 $$\mathrm{MI}(A,B) = \sum_{i} \sum_{j} p_{ij} \log_{2} \frac{p_{ij}}{p_{i} p_{j}}$$
 This is the amount of information that knowing the value of one variable will tell you about the other. This can be used for feature selection. Consider two variables $A$ and $B$ and a target variable $T$. If $\textrm{MI}(A,T) > \textrm{MI}(B,T)$ and $\textrm{MI}(A,B) > \textrm{MI}(B,T)$, it is likely that any relationship between $B$ and $T$ is entirely a consequence of their mutual relationship with $A$. Therefore, $B$ can safely be discarded.
 
-In [Is It A Mushroom or Is It A Toadstool]({% link Data-Science-Notebooks/mushroom.md %}) I used mutual information to infer hidden variables when building a [Bayesian Belief Network]({$ link Key-Algorithms/bayes-theorem.md %}).
+In [Is It A Mushroom or Is It A Toadstool]({% link Data-Science-Notebooks/mushroom.md %}) I used mutual information to infer hidden variables when building a [Bayesian Belief Network]({% link Key-Algorithms/bayes-theorem.md %}).
 
 There are number of information-theory based methods for selecting models. The best known of these, which are closely related to each other are the *Bayesian Information Criterion*
 
