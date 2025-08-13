@@ -38,7 +38,7 @@ We then obtain the eigenvalues and eigenvectors of this matrix. The eigenvectors
 
 There are a number of other techniques for using non-linear relationships in data reduction, collectively known as *manifold learning*, but this article would get a bit too long if we tried to cover them all. However, one that is of particular interest is *t-distributed Stochastic Neighbour Embedding* (t-SNE). This tries to map datapoints to a lower dimension so that the statistical distribution of distances between points in the lower dimension is similar to that in the higher dimension. It is sensitive to the local structure of the data, and so useful for exploratory visualisations.
 
-I used several of these techniques in my work at [Pentland Brands]({% link Portfolio/pentland-brands.md %}). Implementations can be found in Scikit-Learn's [decomposition](https://scikit-learn.org/stable/modules/decomposition.html) and [manifold](https://scikit-learn.org/stable/modules/manifold.html %}) modules.
+I used several of these techniques in my work at [Pentland Brands]({% link Portfolio/pentland-brands.md %}). Implementations can be found in Scikit-Learn's [decomposition](https://scikit-learn.org/stable/modules/decomposition.html) and [manifold](https://scikit-learn.org/stable/modules/manifold.html) modules.
 
 By [Dr Peter J Bleackley]({% link index.md %})
  
