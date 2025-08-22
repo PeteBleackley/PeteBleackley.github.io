@@ -74,7 +74,7 @@ $$f(x) = x \tanh(\mathrm{softsum}(x)) \\
  
  These are quite similar functions. The fact that they are not monotonic gives them the property of being self-regularising - weights and inputs giving rise to large negative values of $x$ will tend to be weakened rather than strengthened during training, thus reducing the the tendency to overfit.
  
- In some circumstances, we may wish to use an activation function that treats both large positive and large negative input values. For this purpose there is a family of activation functions known as *Shrink functions*. The *Hard Shrink* function
+ In some circumstances, we may wish to use an activation function that treats both large positive and large negative input values as significant. For this purpose there is a family of activation functions known as *Shrink functions*. The *Hard Shrink* function
  
  $$f(x) = \left\{ \begin{array}{c 1} 0 & \quad \mathrm{if} |x| < 1 \\
  x & \quad \mathrm{otherwise} \end{array} \right. $$ is discontinuous, which may lead to unstable behaviour during training. The *Soft Shrink* function

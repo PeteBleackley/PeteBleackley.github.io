@@ -12,7 +12,7 @@ They were originally written as a series of blog posts between November 2023 and
 * [Similarity and Difference Metrics]({% link Key-Algorithms/metrics.md %})
 * [TF-IDF]({% link Key-Algorithms/tf-idf.md %})
 * [Data Reduction]({% link Key-Algorithms/data-reduction.md %})
-* [Latent Semantic Indexing]({%link Key-Algorithms/latent-semantic-indexing.md %})
+* [Latent Semantic Indexing]({% link Key-Algorithms/latent-semantic-indexing.md %})
 * [Information Theory]({% link Key-Algorithms/information-theory.md %})
 
 ## Model Evaluation
