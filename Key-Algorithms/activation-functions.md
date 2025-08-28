@@ -82,6 +82,9 @@ $$f(x) = x \tanh(\mathrm{softsum}(x)) \\
  
  $$f(x) = x - \tanh(x)$$
  
+ The derivative is
+ $$\frac{df}{dx} = (x - f(x))^{2} - \tanh(x)^{2}$$
+ 
  The activation functions discussed so far apply mainly to hidden layers. For output layers, the activation functions used may be chosen according to the requirements of the problem. The sigmoid function and its generalisation the *Softmax function*
  
  $$p_{i} = \frac{e^{x_{i}}}{\sum_{i} e^{x_{i}}}$$ may be used, while a simple linear output may be suitable for regression.
