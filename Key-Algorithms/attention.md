@@ -31,7 +31,7 @@ $$\mathbf{S} = \frac{\mathbf{Q} \cdot \mathbf{K}^{T}}{\sqrt{d}}$$
 The scaling is done to prevent the softmax function from saturating and selecting a single token as the sole contributor to the meaning.
 
 Other scoring functions include *Additive Attention*
-$$S_{ij} = \vec{v} \cdot \tanh( \mathbf{W}_{1} \cdot Q_{i} + \mathbf{W}_{2} K_{j})$$
+$$S_{ij} = \vec{v} \cdot \tanh( \mathbf{W}_{1} \cdot Q_{i} + \mathbf{W}_{2} \cdot K_{j})$$
 where $\vec{v}$, $\mathbf{W}\_{1}$ and $\mathbf{W}\_{2}$ are learnable parameters, and *General Attention*
 $$\mathbf{S} = \mathbf{Q} \cdot \mathbf{W}_{a} \mathbf{K}^{T}$$ in which the scaling factor used in scaled dot product attention is replaced by a learnable $d \times d$ weight matrix $\mathbf{W}\_{a}$.
 
