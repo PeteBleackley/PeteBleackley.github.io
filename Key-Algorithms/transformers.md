@@ -15,13 +15,11 @@ $$\vec{X}_{i} = \vec{E}_{T_{i}}$$
 It is desirable that the model should be able to take the position of words into account. For this reason a *Positional Encoding* is added to the initial vectors. This is an $n \times m$ matrix $\mathbf{P}$ where 
 $$P_{i} = f(i)$$
 Typically used is a sinusoidal positional encoding, where for each $k$ in the range $0 \le k < m/2$
-$$P_{i,2k} = \sin\left(\frac{k}{n^{2 i /m}}\right)$$ and
+$$P_{i,2k} = \sin\left(\right)$$ and
 $$P_{i,2k+1} = \cos\left(\frac{k}{n^{2 i / m}}\right)$$
 
-However, more recent transformer models often use a *Rotary Positional Encoding*. In this, we have an $m \times m$ matrix $\mathbf{R}$ which defines a rotation in $m$ dimensional space, and each element of $\mathbf{P}$ is calculated as
-$$\vec{P}_{i} = \mathbf{R} \vec{P}_{i-1}$$
-
-This allows both absolute and relative positions to be taken into account.
+However, more recent transformer models often use a *Rotary Positional Encoding*. In this, rather than adding a function of position to the input vectors, the query and key vectors in the attention layer are each treated as a set of $d/2$ (where $d$ is the dimension of the query and key vectors)  2D vectors, each of which is rotated by an angle 
+$$\theta_{k} = \frac{k}{n^{2 i /d}}$$ (*ie* the same angles used to generate the positional encoding). This introduces a term into the attention score that depends on the offset between two tokens, thus allowing both absolute and relative positions to be taken into account.
 
 After this, the vectors are fed to a series of *Transformer Blocks*. The first element of each transformer block is an attention layer. The output of the attention layer is then added to its input, so as to avoid vanishing gradients. This then undergoes *Layer Normalisation*
 
