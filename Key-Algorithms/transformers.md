@@ -19,7 +19,7 @@ $$P_{i,2k} = \sin\left(\right)$$ and
 $$P_{i,2k+1} = \cos\left(\frac{k}{n^{2 i / m}}\right)$$
 
 However, more recent transformer models often use a *Rotary Positional Encoding*. In this, rather than adding a function of position to the input vectors, the query and key vectors in the attention layer are each treated as a set of $d/2$ (where $d$ is the dimension of the query and key vectors)  2D vectors, each of which is rotated by an angle 
-$$\theta_{k} = \frac{k}{n^{2 i /d}}$$ (*ie* the same angles used to generate the positional encoding). This introduces a term into the attention score that depends on the offset between two tokens, thus allowing both absolute and relative positions to be taken into account.
+$$\theta_{k} = \frac{k}{n^{2 i /d}}$$ (*ie* the same angles that would beused to generate a sinusoidal positional encoding). This introduces a term into the attention score that depends on the offset between two tokens, thus allowing both absolute and relative positions to be taken into account.
 
 After this, the vectors are fed to a series of *Transformer Blocks*. The first element of each transformer block is an attention layer. The output of the attention layer is then added to its input, so as to avoid vanishing gradients. This then undergoes *Layer Normalisation*
 
