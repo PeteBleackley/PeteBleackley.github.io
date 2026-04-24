@@ -6,9 +6,13 @@ title: Dr Peter Bleackley's Curriculum Vitae
 ## [Doctor Peter J Bleackley]({% link index.md %})
 
 ### Professional Experience
+#### Machine Learning Engineer
+**Glite Tech** January 2026 - April 2026
+
+Fine tuning transformer models for Word Sense Disambiguation. Investigated a number of approaches using bi-encoder and cross-encoder models, based on ModernBert and DeBERTa base models. Models can be found on [HuggingFace](https://huggingface.co/GliteTech)
 
 #### Machine Learning Engineer
-**Costplan.ai** January 2025 - present
+**Costplan.ai** January 2025 - March 2025
 
 Building machine learning and RAG components (using LangGraph) for a system to assist quantity surveyors in creating cost plans for building projects.
 
