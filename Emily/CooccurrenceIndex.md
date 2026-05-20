@@ -28,7 +28,7 @@ $$M_{ab} = \log_{2} \frac{\frac{n_{ab}}{N}}{\frac{n_{a}}{N} \frac{n_{b}}{N}} \\
  We may then calculate a score for a document $D$ given query $q$ as
  
  $$S_{D \mid q} = \sum_{i=0}^{k-1} \sum_{j=i+1}^{k} M_{w_{i}w_{j} \mid D} \\
- = \sum_{i=0}^{k-1} \sum_{j=i+1}^{k} n_{w_{i} w_{j} \mid D} + N_{D} - n_{w_{i} \mid D} - n_{w_{j} \mid D} $$
+ = \sum_{i=0}^{k-1} \sum_{j=i+1}^{k} \log_{2} n_{w_{i} w_{j} \mid D} + \log_{2} N_{D} - \log_{2} n_{w_{i} \mid D} - \log_{2} n_{w_{j} \mid D} $$
  
 For any pairs of words from the query that do not occur in the document, we impose $M\_{w\_{i} w\_{j} \mid D} = 0$
  
