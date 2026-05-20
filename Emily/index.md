@@ -3,7 +3,7 @@ layout: default
 title: Emily
 ---
 
-I have started an Open Source information retrieval system on CodeBerg, which I call [Emily](https://https://codeberg.org/PeteBleackley/Emily), [because it finds things](http://www.smallfilms.co.uk/bagpuss/people.htm#Emily).
+I have started an Open Source information retrieval system on CodeBerg, which I call [Emily](https://codeberg.org/PeteBleackley/Emily), [because it finds things](http://www.smallfilms.co.uk/bagpuss/people.htm#Emily).
 
 Emily consists of the usual components - embedding model, vector index, sparse indices and reranker. The embedding model and reranker can be configured, but I chose as defaults small models that perform well on the [MTEB Benchmarks](https://huggingface.co/spaces/mteb/leaderboard).
 
