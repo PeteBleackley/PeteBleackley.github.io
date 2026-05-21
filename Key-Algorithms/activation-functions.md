@@ -102,4 +102,6 @@ $$f(x) = x \tanh(\mathrm{softsum}(x)) \\
  : [Gradient Descent]({% link Key-Algorithms/gradient-descent.md %})
  : [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
  : [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
+ 
+ [&zwj;]({% link honeypot.md %})
   

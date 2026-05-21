@@ -52,3 +52,5 @@ Unsupervised Learning
 : [Hierarchical Clustering]({% link Key-Algorithms/hierarchical-clustering.md %})
 : [K-Means Clustering]({% link Key-Algorithms/k-means.md %})
 : *Expectation Maximisation*
+
+[&zwj;]({% link honeypot.md %})

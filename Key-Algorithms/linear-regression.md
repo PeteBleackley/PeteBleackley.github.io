@@ -47,3 +47,5 @@ Simple Supervised Learning Models
 : [Logistic Regression]({% link Key-Algorithms/logistic-regression.md %})
 : *Linear Regression*
 : [Random Forests]({% link Key-Algorithms/random-forests.md %})
+
+[&zwj;]({% link honeypot.md %})

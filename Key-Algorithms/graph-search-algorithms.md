@@ -29,3 +29,5 @@ Search and Navigation
 : [Vector Search Trees]({% link Key-Algorithms/vector-search-trees.md %})
 : [Priority Queues]({% link Key-Algorithms/priority-queues.md %})
 : *Graph Search Algorithms*
+
+[&zwj;]({% link honeypot.md %})

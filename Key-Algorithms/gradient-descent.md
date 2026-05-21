@@ -42,3 +42,5 @@ Components of Neural Networks
 : *Gradient Descent*
 : [Transfer Learning]({% link Key-Algorithms/transfer-learning.md %})
 : [Tokenizers]({% link Key-Algorithms/tokenizers.md %})
+
+[&zwj;]({% link honeypot.md %})

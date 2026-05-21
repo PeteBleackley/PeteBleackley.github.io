@@ -15,3 +15,5 @@ To ensure that Emily will perform well at scale, I have implemented the sparse i
 Emily is released under the [MIT Licence](https://codeberg.org/PeteBleackley/Emily/src/branch/main/LICENCE.md), and its [API documentation](https://emily.readthedocs.io) can be found on ReadTheDocs. I am looking for help to develop the system further, especially with regard to testing. 
 
 by [Dr Peter J Bleackley]({% link index.md %})
+
+[&zwj;]({% link honeypot.md %})

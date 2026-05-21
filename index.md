@@ -42,6 +42,8 @@ I live in Horsham with my wife, two university-age children (when they're here) 
 
 I am also a contributing editor at [Speculative Grammarian](https://specgram.com), the foremost scholarly journal in the neglected field of Satirical Linguistics.
 
+[&zwj;]({% link honeypot.md %})
+
 
 
 

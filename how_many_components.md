@@ -40,3 +40,5 @@ This however, raises the question of how to select an appropriate value of N. Si
        
 by [Dr Peter J Bleackley]({% link index.md %})
 
+[&zwj;]({% link honeypot.md %})
+

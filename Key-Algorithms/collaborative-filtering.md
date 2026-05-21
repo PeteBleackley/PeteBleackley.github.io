@@ -30,3 +30,5 @@ Collective Intelligence
 : *Collaborative Filtering*
 : [PageRank]({% link Key-Algorithms/pagerank.md %})
 
+[&zwj;]({% link honeypot.md %})
+

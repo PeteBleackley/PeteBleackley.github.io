@@ -39,3 +39,4 @@ Collective Intelligence
 : [Collaborative Filtering]({% link Key-Algorithms/collaborative-filtering.md %})
 : *PageRank*
 
+[&zwj;]({% link honeypot.md %})

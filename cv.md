@@ -116,3 +116,5 @@ techniques for interactive storytelling.
 * **PhD** Astrophysics, University of Leicester, 2000. [Spectroscopy and Variability of Narrow-Line Seyfert 1 Galaxies](https://figshare.le.ac.uk/articles/thesis/Spectroscopy_and_variability_of_Narrow_Line_Seyfert_1_galaxies/10152242)
 * **MSci** Physics, University of Durham, 1996. Class 2:1 
 
+[&zwj;]({% link honeypot.md %})
+

@@ -33,3 +33,5 @@ By [Dr Peter J Bleackley]({% link index.md %})
 : *Latent Semantic Indexing*
 : [Information Theory]({% link Key-Algorithms/information-theory.md %})
 
+[&zwj;]({% link honeypot.md %})
+

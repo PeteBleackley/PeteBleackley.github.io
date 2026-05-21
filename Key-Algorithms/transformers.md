@@ -54,3 +54,5 @@ Neural Network Architectures
 : [Recurrent Neural Networks]({% link Key-Algorithms/recurrent-neural-networks.md %})
 : [The Attention Mechanism]({% link Key-Algorithms/attention.md %})
 : *Transformers*
+
+[&zwj;]({% link honeypot.md %})

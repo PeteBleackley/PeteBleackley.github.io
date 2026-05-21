@@ -17,3 +17,5 @@ The following pages contain case studies from selected projects during my contra
 * [True 212]({% link Portfolio/true-212.md %})
 
 by [Dr Peter J Bleackley]({% link index.md %})
+
+[&zwj;]({% link honeypot.md %})

@@ -34,3 +34,5 @@ Bayesian Models
 : [Hidden Markov Models]({% link Key-Algorithms/hidden-markov-models.md %})
 : [The Viterbi Algorithm]({% link Key-Algorithms/viterbi-algorithm.md %})
 : *Markov Chain Monte Carlo*
+
+[&zwj;]({% link honeypot.md %})

@@ -65,3 +65,5 @@ They were originally written as a series of blog posts between November 2023 and
 * [Transformers]({% link Key-Algorithms/transformers.md %})
 
 by [Dr Peter J Bleackley]({% link index.md %})
+
+[&zwj;]({% link honeypot.md %})

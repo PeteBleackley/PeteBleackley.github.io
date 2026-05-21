@@ -23,4 +23,6 @@ The pages in this section describe various projects I have undertaken with publi
 
 by [Dr Peter J Bleackley]({% link index.md %})
 
+[&zwj;]({% link honeypot.md %})
+
 

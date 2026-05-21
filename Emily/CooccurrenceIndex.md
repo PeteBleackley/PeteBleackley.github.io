@@ -39,4 +39,5 @@ The source code for this can be seen on the [CodeBerg Emily repository](https://
 [Emily]({% link Emily/index.md %})
 by [Dr Peter J Bleackley]({% link index.md %})
 
+[&zwj;]({% link honeypot.md %})
 
