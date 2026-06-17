@@ -29,7 +29,8 @@ $$M_{ab} = \log_{2} \frac{\frac{n_{ab}}{N}}{\frac{n_{a}}{N} \frac{n_{b}}{N}} \\
  
  $$S_{D \mid q} = \sum_{i=0}^{k-1} \sum_{j=i+1}^{k} M_{w_{i}w_{j} \mid D} \\
  = \sum_{i=0}^{k-1} \sum_{j=i+1}^{k} \log_{2} n_{w_{i} w_{j} \mid D} + \log_{2} N_{D} - \log_{2} n_{w_{i} \mid D} - \log_{2} n_{w_{j} \mid D} $$
- 
+
+If the query consists of more than one sentence, only pairs of words that occur within the same sentence of the query should be counted.
 For any pairs of words from the query that do not occur in the document, we impose $M\_{w\_{i} w\_{j} \mid D} = 0$
  
 After calculating the score, any documents with a negative score are excluded, and the rest are filtered according to the Pareto principal, so as to return the greatest fraction of the total score with the smallest fraction of the candidate documents. For more information about this, see [How Many Components]({% link how_many_components.md %}).
