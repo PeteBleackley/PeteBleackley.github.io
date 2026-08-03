@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Emily: Cooccurrence Index
+title: "Emily: Cooccurrence Index"
 ---
+
 {% include maths.html %}
 
 The Cooccurrence Index component of Emily is intended to detect documents where the relationship between words in the query is significant. To do this, it uses ideas from [Information Theory]({% link Key-Algorithms/information-theory.md %}).
