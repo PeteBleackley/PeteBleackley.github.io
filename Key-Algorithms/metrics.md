@@ -27,7 +27,7 @@ $$T = \frac{|A \cap B|}{|A \cup B|}$$, that is the fraction of the links shared 
 If we wish to compare two short strings (as for example, in a spellchecking application), the usual method is the *Leveshtein distance* . This is the number of insertions, deletions or substitutions needed to transform one string into another. If we consider the strings $X$ and $Y$ as sequences of characters $x_{1}x_{2}\ldots x_{m}$ and $y_{1}y_{2}\ldots y_{n}$ respectively, we can define an $m \times n$ matrix $\mathbf{L}$ as 
 $$L_{i,0} = i$$ for $i$ from 0 to m
 $$L_{0,j} = j$$ for $j$ from 0 to n
-$$L_{i,j} = \min \left(L_{i,j-1},L{i-1,j},L{i-1,j-1}+\left\{\begin{array}{c 1} 0 & \quad \mathrm{if } x_{i} = y_{j} \\
+$$L_{i,j} = \min \left(L_{i,j-1},L{i-1,j},L{i-1,j-1}+\left\{\begin{array}{c l} 0 & \quad \mathrm{if } x_{i} = y_{j} \\
 1 & \quad \mathrm{if } x_{i} \neq y_{j} \end{array} \right.\right)$$
 
 The Levenshtein distance is then $L_{m,n}$. While simple to implement and intuitive to understand, this is only really suitable for comparing short strings, as the complexity is $\mathcal{O}(m \times n)$.

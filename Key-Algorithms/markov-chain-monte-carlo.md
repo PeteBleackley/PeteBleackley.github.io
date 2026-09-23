@@ -19,7 +19,7 @@ $$ A(H^{\prime}_{i,t},H_{i,t}) = \min \left( 1, \frac{P(O \mid H^{\prime}_{i,t})
 
 We then generate a set of samples $S_{i}$ from a uniform distribution between 0 and 1, and update the samples as
 
-$$H_{i,t+1} = \left\{  \begin{array}{c 1} H^{\prime}_{i,t} & \quad \textrm{if } S_{i} \leq A(H^{\prime}_{i,t},H_{i,t}) \\ H_{i,t} & \quad \textrm{otherwise} \end{array} \right.$$
+$$H_{i,t+1} = \left\{  \begin{array}{c l} H^{\prime}_{i,t} & \quad \textrm{if } S_{i} \leq A(H^{\prime}_{i,t},H_{i,t}) \\ H_{i,t} & \quad \textrm{otherwise} \end{array} \right.$$
 
 Provided that the model and the choice of priors is suitable for the data being modelled, over sufficient steps, the distribution of $H_{i,t}$ will converge to $P(H \mid O)$. We can envision this as each sample exploring the nearby regions of the distribution and preferring to move towards regions of higher likelihood.
 
