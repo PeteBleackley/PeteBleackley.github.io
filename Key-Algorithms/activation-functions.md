@@ -76,7 +76,7 @@ $$f(x) = x \tanh(\mathrm{softsum}(x)) \\
  
  In some circumstances, we may wish to use an activation function that treats both large positive and large negative input values as significant. For this purpose there is a family of activation functions known as *Shrink functions*. The *Hard Shrink* function
  
- $$f(x) = \left\{ \begin{array}{c 1} 0 & \quad \mathrm{if} |x| < 1 \\
+ $$f(x) = \left\{ \begin{array}{c l} 0 & \quad \mathrm{if} |x| < 1 \\
  x & \quad \mathrm{otherwise} \end{array} \right. $$ is discontinuous, which may lead to unstable behaviour during training. The *Soft Shrink* function
  $$f(x) = \max(x-1,\min(x+1,0))$$ avoids this problem. However, if we wish to use a smooth function, there is the *Tanh Shrink* function.
  
