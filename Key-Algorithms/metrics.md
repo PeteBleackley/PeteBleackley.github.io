@@ -8,8 +8,10 @@ title: Key Algorithms - Similarity and Distance Metrics
 Data scientists often need to compare data points. This is necessary for indexing data, for finding clusters in datasets, for detecting outliers and anomalies, for comparing user behaviour in recommendations systems, and for measuring quality of fit when predicting continuous variables. There are various metrics that can be used for this purpose.
 
 One of the most frequently used metrics is *Euclidean distance*. For two vectors $\vec{x}$ and $\vec{y}$, this is given by 
+
 $$S = |\vec{x} - \vec{y}| \\
 = \sqrt{\sum_{i} (x_{i} - y_{i})^2}$$
+
 This is analogous to distances in physical space. It is useful when the overall scale of the data is important, and has the property that *smaller is better*.
 
 When we wish to take the overall scale of the data out of consideration, it is common to use *cosine similarity* $$C = \frac{\vec{x} \cdot \vec{y}}{|\vec{x}||\vec{y}|}$$
@@ -26,7 +28,9 @@ $$T = \frac{|A \cap B|}{|A \cup B|}$$, that is the fraction of the links shared 
 
 If we wish to compare two short strings (as for example, in a spellchecking application), the usual method is the *Leveshtein distance* . This is the number of insertions, deletions or substitutions needed to transform one string into another. If we consider the strings $X$ and $Y$ as sequences of characters $x_{1}x_{2}\ldots x_{m}$ and $y_{1}y_{2}\ldots y_{n}$ respectively, we can define an $m \times n$ matrix $\mathbf{L}$ as 
 $$L_{i,0} = i$$ for $i$ from 0 to m
+
 $$L_{0,j} = j$$ for $j$ from 0 to n
+
 $$L_{i,j} = \min \left(L_{i,j-1},L{i-1,j},L{i-1,j-1}+\left\{\begin{array}{c l} 0 & \quad \mathrm{if } x_{i} = y_{j} \\
 1 & \quad \mathrm{if } x_{i} \neq y_{j} \end{array} \right.\right)$$
 
