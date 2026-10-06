@@ -8,6 +8,7 @@ title: Key Algorithms -  Information Theory
 Data science can be described as turning data into information. However, we need to know how much information there is to find and where to find it. There are various methods we can use to measure this, which derive from the field of *Information Theory*.
 
 The most basic of these measurements is *entropy*, which was introduced by Claude Shannon. If a variable has a probability distribution $p_{i}$, the entropy of that variable is given by
+
 $$H = -\sum_{i} p_{i} \log_{2}p_{i}$$
 This is the expected number of binary decisions needed to identify a value of the variable, or, if we were to generate a stream of symbols from that distribution, the average number of bits per symbol that would be needed to encode that stream in an optimal lossless compression.
 This is useful for identifying which variables are most important. Entropy has its maximum value of $\log_{2} N$, where $N$ is the number of possible values, when the values are evenly distributed, and its minimum value of 0 when one value is a certainty.
@@ -20,7 +21,9 @@ In [Is It A Mushroom or Is It A Toadstool]({% link Data-Science-Notebooks/mushro
 
 There are number of information-theory based methods for selecting models. The best known of these, which are closely related to each other are the *Bayesian Information Criterion*
 
-$$\mathrm{BIC} = k \ln n - 2 \ln \hat{L}$$ and the *Akaike Information Criterion*
+$$\mathrm{BIC} = k \ln n - 2 \ln \hat{L}$$ 
+
+and the *Akaike Information Criterion*
 
 $$\mathrm{AIC} = 2 ( k- \ln \hat{L} )$$
 
