@@ -6,7 +6,9 @@ title: Key Algorithms - Bayes' Theorem
 
 # Bayes Theorem 
 
-If you look at [my LinkedIn profile](https://www.linkedin.com/in/peterjbleackley), you'll see that the banner shows the formula $$P(H \mid O) = \frac{P(H) P(O \mid H)}{P(O)}$$
+If you look at [my LinkedIn profile](https://www.linkedin.com/in/peterjbleackley), you'll see that the banner shows the formula 
+
+$$P(H \mid O) = \frac{P(H) P(O \mid H)}{P(O)}$$
 
 This is a foundational rule for calculating conditional probabilities, known a *Bayes' Theorem*, after the Reverend Thomas Bayes, who first proposed it. It may be read as *the probability of a hypothesis given some observations is equal to the prior probability of the hypothesis multiplies by the probability of the observations given that hypothesis, and divided by the probability of the observations*. 
 
@@ -21,6 +23,8 @@ If the family's second child is also rhesus-positive, we can further update our 
 $$P(H \mid O) = \frac{P(H) P(O \mid H)}{(P(H) P(O \mid H) + P(¬H) P(O \mid ¬H)} = \frac{\frac{2}{3} \times 1}{\frac{2}{3} \times 1 + \frac{1}{3} \times \frac{1}{2}} = \frac{4}{5}$$
 
 It is easy to see that if we had known both children's blood groups from the outset, and used $P(O \mid ¬H) = \frac{1}{4}$ we could have got the same result.
+
+Suppose we had started with the assumption that the father only had a $\frac{1}{3}$ probability of carrying 2 copies of the rhesus positive gene, as there are two ways he can have 1 copy and only one way he can have two copies, we find that the posterior probability would be $\frac{2}[3}$. Thus we can see that estimates of the prior probability tend to converge as evidence is added, regardless of different estimates of the prior.
 
 In data science, we often have to estimate the probability of a hypothesis given some evidence, so Bayes' theorem is a useful thing to have in our toolkit. 
 
