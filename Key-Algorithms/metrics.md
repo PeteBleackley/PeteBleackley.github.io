@@ -27,6 +27,7 @@ Sometimes we wish to compare data that is not readily described as vectors. Supp
 $$T = \frac{|A \cap B|}{|A \cup B|}$$, that is the fraction of the links shared by either user that have been shared by both users. This has a range from 0 to 1 and *bigger is better*.
 
 If we wish to compare two short strings (as for example, in a spellchecking application), the usual method is the *Leveshtein distance* . This is the number of insertions, deletions or substitutions needed to transform one string into another. If we consider the strings $X$ and $Y$ as sequences of characters $x_{1}x_{2}\ldots x_{m}$ and $y_{1}y_{2}\ldots y_{n}$ respectively, we can define an $m \times n$ matrix $\mathbf{L}$ as 
+
 $$L_{i,0} = i$$ for $i$ from 0 to m
 
 $$L_{0,j} = j$$ for $j$ from 0 to n
